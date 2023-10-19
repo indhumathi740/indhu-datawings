@@ -1,0 +1,48 @@
+.common-pac-ques {
+    padding-bottom: 60px;
+}
+
+.accordion-body {
+    border: none !important;
+    padding: 30px 30px 30px 20px !important;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.collapsed {
+
+    padding: 25px;
+    font-size: clamp(16px, 4vw, 10px);
+    font-weight: 550;
+}
+
+.lineforquestions {
+    color: rgb(189, 176, 176);
+}
+
+.accordion {
+    background-color: white !important;
+    --bs-accordion-btn-focus-box-shadow: none !important
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+    background-color: white !important;
+    color: var(--ispsec)
+}
+
+.btns-greens-thirds {
+    padding: 10px 30px;
+    background-color: var(--ispsec);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 50px;
+
+
+}

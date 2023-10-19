@@ -1,0 +1,396 @@
+.mainfooter {
+    /* background-color: var(--bgc); */
+    background-image: url('/public/images/footer-bg.jpg');
+    position: relative;
+    color: white;
+
+
+}
+
+.smallbox-1 li {
+    color: #fff;
+}
+
+.one {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.footer-main {
+    padding-top: 100px;
+}
+
+.hrline {
+    color: #fff;
+}
+
+.two {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.two Link {
+    color: #fff;
+}
+
+.quicklinks a {
+    color: #fff;
+}
+
+.quicklinks a:hover {
+    color: var(--sec);
+}
+
+.quicklinks {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.three {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.four {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.address {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.address p {
+    color: #fff;
+}
+
+.online {
+    padding: 5px 10px;
+    background-color: var(--pri);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.book {
+    padding: 5px 10px;
+    background-color: var(--pri);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.iconss {
+    font-size: 20px;
+    margin-left: 35px;
+    color: var(--sec);
+    text-align: left;
+}
+
+.iconss a {
+    margin-right: 10px;
+}
+
+.follow {
+    color: var(--pri);
+    margin-left: 34px;
+}
+
+.mainfooter li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.infyy-icon {
+    font-size: 10px;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--pri);
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.small-box {
+    padding: 50px 0px;
+    /* margin-bottom: 50px; */
+}
+
+/* .small-box {
+    margin:40px 20px;
+    width:100%;
+    border-bottom: 5px;
+    margin-right: 10px;
+    box-shadow:  1px 1px 6px #aaaaaa;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid red;
+    margin-top: 100px;
+    height: 100px;
+} */
+.nam-icon {
+    background-color: white;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.name {
+    background-color: var(--pri);
+    /* border-radius: 10px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 20;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.nam {
+    background-color: white;
+
+}
+
+.infy {
+    /* color: white; */
+    /* text-align: center; */
+    font-size: 30px;
+    /* padding: 29px;  */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 10px; */
+    padding-top: 23px;
+}
+
+.infyy {
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: var(--pri);
+    display: flex;
+    justify-content: center;
+}
+
+.infyicon {
+    margin-top: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: var(--sec);
+}
+
+.call {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--pri);
+    border-right: light black;
+    font-size: 20px;
+}
+
+.calls {
+    background-color: white;
+}
+
+.phone {
+    text-align: center;
+    color: var(--sec);
+    font-size: 20px;
+}
+
+.email {
+    text-align: center;
+    color: var(--sec);
+    font-size: 15px;
+}
+
+.mail {
+    /* margin-bottom: 100px; */
+    text-align: center;
+    color: black;
+
+}
+
+.hari {
+    color: black;
+    display: flex;
+    justify-self: center;
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.follows {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.facebook {
+    padding-right: 5px;
+}
+
+.twitter {
+    padding-right: 5px;
+}
+
+.instagram {
+    padding-right: 5px;
+}
+
+.whatsapp {
+    padding-right: 5px;
+}
+
+.linkedin {
+    padding-right: 5px;
+}
+
+@media screen and (width<=767px) {
+    .call {
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .phone {
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .infyy {
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+
+    .hari {
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+
+    .infyy-icon {
+        justify-content: flex-start;
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+
+    .infyicon {
+        justify-content: flex-start;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .infyicon1 {
+        padding: 0px 0px 15px 15px;
+        padding-bottom: 15px;
+    }
+
+    .name {
+
+        border-top-right-radius: 10px;
+
+        border-bottom-left-radius: 0px;
+    }
+
+    .nam-icon {
+        padding-bottom: 15px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+}
+
+@media screen and (width>=767px) and (width<=991px) {
+    .name {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+
+    .nam-icon {
+        border-top-right-radius: 0px;
+    }
+
+    .nam1 {
+        border-bottom-left-radius: 10px;
+    }
+}
+
+.authorize img {
+    width: 150px;
+}
+
+.auth {
+    margin-left: 20px;
+}
+
+.authorize {
+    padding-bottom: 50px;
+}
+
+.ph {
+    font-size: 18px;
+}
+
+/* Go Top  */
+.topmenu {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.topmenu svg {
+    fill: var(--pri);
+}
+
+.topIcon {
+    position: absolute;
+    color: #fff;
+}
+
+@media screen and (width<=500px) {
+    .authorize img {
+        /* display: flex;
+        flex-direction: column; */
+        width: 100px;
+    }
+
+    .authorize p {
+        text-align: center;
+    }
+}
+
+
+
+.data-logoo img {
+    width: 100%;
+    object-fit: cover;
+  
+}
