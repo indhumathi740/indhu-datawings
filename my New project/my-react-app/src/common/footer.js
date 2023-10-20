@@ -102,73 +102,108 @@ function Footer() {
 
           <div className="smallbox-1">
             <div className="row">
-              <div className="col-xs-6 col-sm-3 mb-3 ">
-                <h1 className="mini-title one">Our Services</h1>
-                <ul>
-                  <li className="quicklinks">
-                    <Link to="/">IT Supports</Link>
-                  </li>
-                  <li className="quicklinks">
-                    <Link to="/ServiceSeo">Website / App</Link>
-                  </li>
-                  <li className="quicklinks">
-                    <Link to="/ispservice">ISP Services</Link>
-                  </li>
-                </ul>
-              </div>
               <div className="col-xs-6 col-sm-3">
+                <h1 className="mini-title three">Address</h1>
+                <p className="address">
+                  <p>
+                    3/115, naryiampallipudur karuvalur annur coimbatore tamilnadu-641653 india
+                  </p>
+                </p>
+                <p className="address ph">+91 &nbsp;8220046331</p>
+
+
+                <p className="addressisp">
+                  <b>info@datawingstel.in</b>
+                </p>
+                <div className="infyicon">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/infygain/"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-facebook data-icon"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://wa.me/919952141444"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-whatsapp"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/infygain/"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-instagram"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/infygain-technologies/"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-linkedin"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://twitter.com/infygain"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-twitter"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/@infygain6707"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+              <div className="col-xs-6 col-sm-3 quick-box">
                 <h1 className="mini-title two">Quick Links</h1>
                 <ul className="text-muted quicklinks mb-5">
                   {/* <li> <Link to="/">Home</Link></li> */}
                   <li>
                     {" "}
-                    <Link to="/about">About Us</Link>
+                    <Link to="/"  className="link-without-underline">Home</Link>
                   </li>
                   {/* <li> <Link to="/service">Services</Link></li> */}
                   <li>
-                    <Link to="/">Blog</Link>
+                    <Link to="/aboutus" className="link-without-underline">Aboutus</Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to="/contact" className="link-without-underline">Contact Us</Link>
                   </li>
                   <li>
                     {" "}
-                    <Link
-                      target="_blank"
-                      to="https://infygain.com/onlinestore/"
-                    >
-                      Online Store
-                    </Link>
+                    <Link to="/service" className="link-without-underline">Services</Link>
                   </li>
+                  <li>
+                    {" "}
+                    <Link to="/packages" className="link-without-underline">Packages</Link>
+                  </li>
+
                   {/* <li> <Link to="/contact">Book Services</Link></li> */}
                 </ul>
               </div>
-              <div className="col-xs-6 col-sm-3">
-                <h1 className="mini-title three">Address</h1>
-                <p className="address">
-                  <p>
-                    Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                    Coimbatore, Tamil Nadu 641035
-                  </p>
-                </p>
-                <hr className="hrline"></hr>
-                <p className="address ph">+91 &nbsp;9952141444</p>
-              
-
-                <p className="address">
-                  <b>info@infygain.com</b>
-                </p>
-              </div>
-              <div className="col-xs-6 col-sm-3">
+              <div className="col-xs-6 col-sm-3 link-without-underline">
                 <h1 className="mini-title four">Legal Links</h1>
                 <ul className="text-muted legallinks">
-                  <li className="quicklinks"><Link to="/privacypolicy">Privacy Policy</Link></li>
+                  <li className="quicklinks " ><Link to="/contact">Privacy Policy</Link></li>
                   <li className="quicklinks"><Link to="/termspage">Terms and Conditions</Link></li>
-                  <li className="quicklinks"><Link to="/delivery">Delivery and Shipping Policy</Link></li>
-                  <li className="quicklinks"><Link to="/refund">Refund and Cancellation Policy</Link></li>
-                  <li className="quicklinks"><Link to="/quality">Quality Policy</Link></li>
+                  <li className="quicklinks"><Link to="/delivery">Disclaimer</Link></li>
+                  <li className="quicklinks"><Link to="/refund">Support</Link></li>
+                  <li className="quicklinks"><Link to="/quality">Cancellation & Refund</Link></li>
                 </ul>
+              </div>
+              <div className="col-xs-6 col-sm-3 con-foo">
+                <p className="fours">Get exclusive deals by signing up to our Newsletter.</p>
+                <div className="col-md-6 form-group emai-btn">
+           <input type="text" className="form-control messagesfoo" placeholder="Your Email *" required />
+           <div className="foo-main-btn"><button className="btns-green-learnmoreanother">SignUp</button></div>
+                                    </div>
               </div>
             </div>
           </div>

@@ -8,8 +8,8 @@ function Banner() {
 
             <div className=' ispservice '>
                 <div className=" topbannersection">
-                    <div className='container '
-                    >
+                    <div className='container'>
+                    
                         <div className='row'>
                             <div className='col-md-7' data-aos="fade-up" data-aos-duration="1000">
                                 <div className=' contentsection'>

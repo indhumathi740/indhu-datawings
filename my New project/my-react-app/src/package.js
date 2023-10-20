@@ -8,6 +8,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Smallbox from './ispservice/smallbox';
 import Packagequestions from './packages/packages questions';
+import MyPackages from './MyPackages';
+import Bannerblog from './blogs/blogbanner';
+import Bannerpac from './packages/ban-loc-pac';
 
 function Packages() {
   useEffect(() => {
@@ -21,7 +24,9 @@ function Packages() {
       {/* <Header/> */}
       <div className='ispmainservice'>
         <Header />
-        <Thirdbanner />
+        <Bannerpac />
+        <MyPackages />
+        {/* <Thirdbanner /> */}
         <Smallbox />
         <Finalbanner />
         <Packagequestions />

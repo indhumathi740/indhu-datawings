@@ -109,7 +109,7 @@ function header() {
           <div className="main-head-box">
             <div className="logoo-box">
               <img
-                className="img-fluid"
+                className=" datawings-logo"
                 src="./images/icons/LOGO DATAWINGS.png"
                 alt="infygain logo"
               ></img>
@@ -130,18 +130,23 @@ function header() {
                   Package
                 </Link>
               </li>
-              <li className="sub">
-                <Link className="mlink">
+              <li>
+                <Link className="mlink" to="/service">
                   Services 
                 </Link>
                 
               </li>
-             
+              <li>
+                <Link className="mlink" to="/blog">
+                 Blog
+                </Link>
+              </li>
               <li>
                 <Link className="mlink" to="/contact">
                   Contact
                 </Link>
               </li>
+             
             </div>
             {/* <div className="contact-box">
               <div className="row align-items-center">
@@ -183,20 +188,20 @@ function header() {
           </Link>
         </li> 
         <li>
-          <Link className="mlink" to="/about">
+          <Link className="mlink" to="/aboutus">
             About
           </Link>
         </li>
         <li className="sub">
-                <Link className="mlink " onClick={DropdownMenuSub}>
-           Packages
+                <Link className="mlink " to="/packages" onClick={DropdownMenuSub}>
+           Blog
                    {/* <IoMdArrowDropdown/> */}
                 </Link>
                
               </li>
         <li>
-          <Link className="mlink" to="/blogs">
-          Services
+          <Link className="mlink" to="/service">
+         Packages
           </Link>
         </li>
         <li>
@@ -204,6 +209,7 @@ function header() {
             Contact
           </Link>
         </li>
+        
       </div>
     </>
   );

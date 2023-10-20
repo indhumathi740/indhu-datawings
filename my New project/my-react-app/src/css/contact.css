@@ -1,12 +1,13 @@
 .head-isp-contact {
     text-align: center;
-    background-image: url("../images/banner/contact 1.jpg");
+    background-image: url("../images/banner/contact\ us\ DATA.jpg");
     background-repeat: no-repeat;
     color: #fff;
-    background-size: 100% 600px;
-    height: 400px;
-    object-fit: cover;
+   
     padding: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact-form {
@@ -61,7 +62,7 @@
     margin-top: 10px;
 }
 
-.form-group {
+.form-groupsisp {
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
@@ -197,13 +198,14 @@ padding-right: 30px;
     }
 
 }
-@media(max-width:360px) {
-    .fa-isp {
-border: 2px solid red;
-}
 
-}
+
+
 .head-isp-para{
     font-weight: 600;
     font-size: 20px;
 }
+/* .icon-isp-about-con{
+    padding-left: 20px;
+} */
+

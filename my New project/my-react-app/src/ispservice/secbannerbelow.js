@@ -1,0 +1,30 @@
+import 'font-awesome/css/font-awesome.css';
+import '../css/ispservice.css';
+function Secondbannerbelowcon() {
+    return (
+        <>
+            <div className=' ispservice1 '>
+            <div className=' bannerbelcon'>
+                    <div className='container'>
+                        <div className=' row ban-two-hea'>
+                            <div className='col-md-6' data-aos="fade-right" data-aos-duration="1000">
+                                <div className='button'><button className='btns-greens'>what we offer</button></div>
+                                <p className='ban-two-bel'>We're Your Trusted Internet Service Professionals.</p>
+
+                            </div>
+                            <div className='col-md-6' data-aos="fade-left" data-aos-duration="1000">
+                                <p className='text-muted ban-two-con'>Discover the expertise of our trusted Internet service professionals at Infygain technologies. Count on us for reliable connectivity solutions and exceptional service.</p>
+                                <div className='button'><button className='btns-green-learn'>learnmore</button></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </>
+
+    );
+}
+
+export default Secondbannerbelowcon;

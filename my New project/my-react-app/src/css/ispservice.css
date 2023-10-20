@@ -139,7 +139,7 @@
 
 .rigonebox {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 0px;
     padding: 0;
   
@@ -291,11 +291,11 @@
     display: flex;
     align-items: center;
     height: 500px;
-    background-image: url("../images/banner/trial4.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
+    background-image: url("../images/banner/ispservices-webp.webp");
     color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -538,10 +538,11 @@
 }
  
 .topbannersectionthird {
-    background-image: url("../images/banner/trial4.jpg");
+    background-image: url("../images/banner/ban-abo.webp");
     background-repeat: no-repeat;
     color: #fff;
     background-size: 100% 600px;
+    
 }
 
 .maintitlethi {
@@ -754,12 +755,13 @@
 }
 
 .topbannersection2 {
-    background-image: url("../images/banner/trial3.jpg");
+    background-image: url("../images/banner/hologram-projector.webp");
     background-repeat: no-repeat;
     color: #fff;
     background-size: 100% 600px;
     object-fit: contain;
     height: 100%;
+    
 }
 
 .serviceContents {

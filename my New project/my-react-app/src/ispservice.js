@@ -16,6 +16,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Smallbox from './ispservice/smallbox';
+import Secondbannerbelowcon from './ispservice/secbannerbelow';
 
 function Ispservice() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function Ispservice() {
         <Firstsection />
         <Smallbox />
         <Secondbanner />
+        <Secondbannerbelowcon />
         <Services />
         <Servbelowcont />
         <Thirdbanner />

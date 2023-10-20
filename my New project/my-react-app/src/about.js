@@ -7,6 +7,8 @@ import Header from './common/header';
 import Banners from './ispservice/banner';
 // import Servbelowcont from './ispservice/service-below-con';
 import Smallbox from './ispservice/smallbox';
+import Footer from './common/footer';
+
 function Aboutus() {
 
     return (
@@ -19,6 +21,8 @@ function Aboutus() {
                 <Servicesabout />
                 <Secondbanners />
                 <Internetservice />
+                <Footer />
+
             </div>
             {/* <Enquiry/>
           <Footer /> */}

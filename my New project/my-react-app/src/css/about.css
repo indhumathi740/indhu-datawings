@@ -4,10 +4,10 @@ text-align: center;
 background-image: url("../images/banner/About\ us\ banner\ -isp.jpg");
 background-repeat: no-repeat;
 color: #fff;
-background-size: 100% 600px;
-height: 300px; 
-object-fit: cover;
+
 padding: 100px;
+background-position: center center;
+background-size: cover;
 }
 .head-isp-about{
     font-size: 35px;

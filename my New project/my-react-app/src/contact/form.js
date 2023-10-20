@@ -18,7 +18,7 @@ function Forms() {
                                 <p className='text-muted'>Feel free to reach out to us with any questions or concerns</p>
                                 <div className='rigonebox' >
                                     <div className='col-md-2 icon-isp-about' >
-                                        <img src="/images/banner/loc.png" alt="service icons" className=' img-fluid fa-isp'></img>                                 </div>
+                                        <img src="/images/banner/loc.png" alt="service icons" className='  fa-isp'></img>                                 </div>
                                     <div className='col-md-10 icon-isp-about-con'>
 
                                         <p className='rigtitle'><b>Head office</b></p>
@@ -32,7 +32,7 @@ function Forms() {
                             <div className='row second'>
                                 <div className='rigonebox'>
                                     <div className='col-md-2 icon-isp-about'>
-                                        <img src="/images/banner/Text.png" alt="service icons" className=' img-fluid fa-isp'></img>                                </div>
+                                        <img src="/images/banner/Text.png" alt="service icons" className='  fa-isp'></img>                                </div>
                                     <div className='col-md-10 icon-isp-about-con'>
                                         <p className='rigtitletwo'><b>Email us</b></p>
                                         <p className='text-muted rigpara'>Technical : info@datawingstel.in<br></br>
@@ -44,7 +44,7 @@ function Forms() {
                             <div className='row third'>
                                 <div className='rigonebox'>
                                     <div className='col-md-2 icon-isp-about'>
-                                        <img src="/images/banner/ph.png" alt="service icons" className=' img-fluid fa-isp'></img>                                </div>
+                                        <img src="/images/banner/ph.png" alt="service icons" className='fa-isp'></img>                                </div>
                                     <div className='col-md-10 pho-ic-tit'>
                                         <p className='rigtitle'><b>
                                             Head office</b></p>
@@ -59,28 +59,28 @@ function Forms() {
                             <p className=' isp-contact-form'>Send us a message</p>
                             <form>
                                 <div className="row box">
-                                    <div className="col-md-6 form-group">
-                                        <label>Nameeeee </label>
+                                    <div className="col-md-6 form-group form-groupsisp">
+                                        <label>Name </label>
                                         <input type="text" className="form-control messages" placeholder="Your name *" required />
                                     </div>
-                                    <div className="col-md-6 form-group">
+                                    <div className="col-md-6 form-group form-groupsisp">
                                         <label className=''>
                                             Company </label>
                                         <input type="phone" className="form-control messages" placeholder="Company*" required />
                                     </div>
-                                    <div className="col-md-6 form-group">
+                                    <div className="col-md-6 form-group form-groupsisp">
                                         <label>Phone  </label>
                                         <input type="email" className="form-control messages " placeholder="Phone *" required />
                                     </div>
-                                    <div className="col-md-6 form-group">
+                                    <div className="col-md-6 form-group form-groupsisp">
                                         <label>Email </label>
                                         <input type="text" className="form-control messages" placeholder="Email " required />
                                     </div>
-                                    <div className="form-group">
+                                    <div className="form-group form-groupsisp">
                                         <label>Subject </label>
                                         <input type="text" className="form-control messages" placeholder="Subject" required />
                                     </div>
-                                    <div className=" form-group">
+                                    <div className=" form-group form-groupsisp">
                                         <label>Message </label>
                                         <input type="textarea" className="form-control message" placeholder="Your Message" required />
                                     </div>
