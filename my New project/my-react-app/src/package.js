@@ -25,8 +25,7 @@ function Packages() {
       <div className='ispmainservice'>
         <Header />
         <Bannerpac />
-        <MyPackages />
-        {/* <Thirdbanner /> */}
+        <MyPackages/>
         <Smallbox />
         <Finalbanner />
         <Packagequestions />

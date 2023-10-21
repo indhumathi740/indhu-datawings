@@ -113,7 +113,7 @@ function Footer() {
 
 
                 <p className="addressisp">
-                  <b>info@datawingstel.in</b>
+                  <b>info@datawings.co.in</b>
                 </p>
                 <div className="infyicon">
                   <a

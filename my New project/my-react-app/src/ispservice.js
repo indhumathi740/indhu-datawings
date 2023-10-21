@@ -17,6 +17,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Smallbox from './ispservice/smallbox';
 import Secondbannerbelowcon from './ispservice/secbannerbelow';
+import DwBlogs from './blogs/singleblog';
 
 function Ispservice() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function Ispservice() {
         <Servbelowcont />
         <Thirdbanner />
         <Blogsection />
+        <DwBlogs />
         <Finalbanner />
         <Footer />
       </div>

@@ -17,6 +17,7 @@ import Packageslles from './lle';
 import Packagesbroad from './broad';
 import Packagestv from './tv';
 import Location from './packagelocation';
+import OverBlogs from './overblog';
 // import Mainpackages from './MyPackages';
 
 
@@ -38,6 +39,8 @@ function App() {
         <Route path="/sme" element={<Packagessmes/>} />
         <Route path="/lle" element={<Packageslles/>} />
         <Route path="/tv" element={<Packagestv/>} />
+        <Route path="/overblog" element={<OverBlogs/>} />
+
         {/* <Route path="/mains" element={<Mypackages/>} /> */}
         {/* <Route path="/location" element={<Location/>} /> */}
 

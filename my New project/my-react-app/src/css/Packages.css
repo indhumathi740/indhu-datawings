@@ -1,4 +1,14 @@
 /* Packages.css */
+.head-isp-abou-pacs{
+  text-align: center;
+  background-image: url("../images/banner/Banner\ Datawings1.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+  
+  padding: 100px;
+  background-position: center center;
+  background-size: cover;
+}
 .packages-container {
     text-align: center;
     padding: 20px;
@@ -36,12 +46,12 @@
     align-items: center;
   }
   .package-box:hover{
-    background-color: var(--ispsmallbackground-color);
+    background-color: rgb(89, 175, 89);
   }
   .package-details {
     text-align: center;
   }
-  .package-details:hover{
+  .package-box:hover{
 color: #fff;
   }
   
@@ -101,17 +111,45 @@ color: #fff;
     -moz-appearance: none;
     background: transparent;
     border: 2px solid #4CAF50;
-    color: #4CAF50;
+    color: var(--isppri);
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
     margin: 0 10px; 
+    padding: 10px 70px;
+    
   }
   
   
   .select-dropdown:hover,
   .select-dropdown:focus {
     border-color: #45a049;
+
   }
+  .head-pac-h{
+    border-radius: 10px;
+  }
+  .allloca{
+ padding-top: 20px;
+ 
+  }
+  .contents{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
   
+    
+  }
+  .locationcontent{
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .las-blo-titlessisp{
+    padding-bottom: 0px;
+    font-weight: 700;
+    font-size: 22px;
+  }

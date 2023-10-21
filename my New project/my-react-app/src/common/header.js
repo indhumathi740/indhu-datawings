@@ -50,7 +50,7 @@ function header() {
               <p>
                 <a className="head-link" href="mailto:info@datawingstel.in">
                   <HiOutlineMail />
-                  &nbsp;&nbsp;&nbsp;&nbsp; info@datawingstel.in
+                  &nbsp;&nbsp;&nbsp;&nbsp; info@datawings.co.in
                 </a>
               </p>
             </div>
@@ -164,9 +164,9 @@ function header() {
               </div>
             </div> */}
             <div className="enquiry-box">
-              <a className="head-link" href="/contact">
+              <a className="head-link" href="https://user.datawingstel.in" target="_blank">
                 <button className="btn btns-greenbox">
-                  Get Started &nbsp;&nbsp;<i className="fa fa-arrow-right"></i>
+                 Login &nbsp;&nbsp;<i className="fa fa-arrow-right"></i>
                 </button>
               </a>
               {/* <a className="head-links" target="_blank" href="https://infygain.com/onlinestore/">
@@ -194,14 +194,13 @@ function header() {
         </li>
         <li className="sub">
                 <Link className="mlink " to="/packages" onClick={DropdownMenuSub}>
-           Blog
-                   {/* <IoMdArrowDropdown/> */}
+           Packages         {/* <IoMdArrowDropdown/> */}
                 </Link>
                
               </li>
         <li>
-          <Link className="mlink" to="/service">
-         Packages
+          <Link className="mlink" to="/blog">
+        Blog
           </Link>
         </li>
         <li>

@@ -17,8 +17,7 @@ const DwBlogs = () => {
                 <div className='dw-blogs3'>
                     <span className='dw-blog-title'>How Customers Use Satellite Internet</span>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                    </p>
+                    Selecting the ideal home internet plan is about understanding your needs, matching your online activities to the right speed, and exploring provider options. Make the right choice for a seamless online experience.                    </p>
                     <span className='dw-blog-date'>December 8, 2022</span>
                 </div>
             </div>
@@ -34,8 +33,7 @@ const DwBlogs = () => {
                 <div className='dw-blogs3'>
                     <span className='dw-blog-title'>How Customers Use Satellite Internet</span>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                    </p>
+                    Selecting the ideal home internet plan is about understanding your needs, matching your online activities to the right speed, and exploring provider options. Make the right choice for a seamless online experience.                    </p>
                     <span className='dw-blog-date'>December 8, 2022</span>
                 </div>
             </div>
@@ -51,8 +49,7 @@ const DwBlogs = () => {
                 <div className='dw-blogs3'>
                     <span className='dw-blog-title'>How Customers Use Satellite Internet</span>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                    </p>
+                    Selecting the ideal home internet plan is about understanding your needs, matching your online activities to the right speed, and exploring provider options. Make the right choice for a seamless online experience.                    </p>
                     <span className='dw-blog-date'>December 8, 2022</span>
                 </div>
             </div>

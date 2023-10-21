@@ -837,3 +837,97 @@
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+/*blogs*/
+.dataimg{
+    height: 500px;
+    width: 100%;
+     padding: 20px 20px;
+     border-radius: 30px;
+    
+  }
+  .overallpique{
+      text-align: justify;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-bottom: 30px;
+    
+  }
+  .innerpique{
+      box-shadow: 0 0 10px black;
+  }
+  .valuamount{
+      padding: 20px 20px;
+  }
+  .buttongroupin{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+       justify-content: space-evenly;
+       font-weight: 750;
+      padding-bottom: 30px;
+      margin-left: 8%;
+       
+  }
+  .buttonque{
+      display: flex;
+      width: 70%;
+      background-color:rgb(255, 1, 1);
+      justify-content: center;
+      justify-content: space-evenly;
+      border-radius: 5px;
+  }
+  .blogicons{
+      height: 60%;
+      margin-top: 10px;
+  }
+  .lettering{
+      margin-top: 10px;
+  }
+  .blogmail{
+      height: 70%;
+      margin-top: 10px;
+  }
+  .blogmails{
+      height: 40px;
+      margin-top: 5px;
+  }
+  .blogtwitter{
+      height: 50px;
+  }
+  .buttonque:hover{
+      background-color: rgb(255, 62, 62);
+  }
+  
+  @media (Width<=991px){
+      .buttongroupin{
+          margin: 0;
+          margin-left:15px;
+      }
+      .buttonque{
+     width:85%
+      }
+  }
+  @media (Width<=767px){
+      .buttongroupin{
+         
+          margin-left:25px;
+          grid-template-columns: repeat(2,1fr);
+      }
+      .buttonque{
+     width:85%;
+     margin-top: 10px;
+      }
+  }
+  @media (width<=437px){
+      .buttongroupin{
+          grid-template-columns: repeat(1,1fr);
+  margin-left: 12%;
+  
+        
+      }
+  }
