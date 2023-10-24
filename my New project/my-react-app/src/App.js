@@ -18,6 +18,10 @@ import Packagesbroad from './broad';
 import Packagestv from './tv';
 import Location from './packagelocation';
 import OverBlogs from './overblog';
+import Footerprivacypage from './privacypolicy';
+import Termspage from './termspolicy';
+import Dispage from './disclaims';
+import Suppopage from './supportpage';
 // import Mainpackages from './MyPackages';
 
 
@@ -40,6 +44,10 @@ function App() {
         <Route path="/lle" element={<Packageslles/>} />
         <Route path="/tv" element={<Packagestv/>} />
         <Route path="/overblog" element={<OverBlogs/>} />
+        <Route path="/privs" element={<Footerprivacypage/>} />
+        <Route path="/terms" element={<Termspage/>} />
+        <Route path="/disclaimer" element={<Dispage/>} />
+        <Route path="/support" element={<Suppopage/>} />
 
         {/* <Route path="/mains" element={<Mypackages/>} /> */}
         {/* <Route path="/location" element={<Location/>} /> */}

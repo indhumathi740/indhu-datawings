@@ -1,0 +1,56 @@
+.policypage{
+  font-family: sans-serif;
+}
+.privacy-hed{
+
+font-size: 25px;
+padding-top: 50px;
+text-align: center;
+color: var(--isppri);
+font-weight: 700;
+}
+.privacy-hed-side{
+font-size: 20px;
+color: var(--isppris);
+font-weight: 600;
+}
+.privacy-con{
+    font-size: 16px;
+}
+
+/* Style for the button rows */
+.button-priv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add some space between rows */
+    border: none;
+  padding: 20px;
+  background-color: white;
+  }
+  
+  /* Style for the buttons */
+  .hover-button {
+    background-color: #f0f0f0;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid white;
+    margin-right: 10px; /* Add some space between buttons */
+  }
+  .button-priv:hover{
+    color: white;
+    background-color: var(--isppri);
+    border-radius: 10px;
+  }
+  
+  /* Style for active buttons */
+  .button-priv.active {
+    background-color: #2ed30d; /* Change the background color when active */
+    color: white;
+  }
+  
+  /* Style for the paragraphs */
+  .privacy-con {
+    margin-left: 10px; /* Add some space between the button and the paragraph */
+  }
+  
