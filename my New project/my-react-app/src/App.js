@@ -22,6 +22,14 @@ import Footerprivacypage from './privacypolicy';
 import Termspage from './termspolicy';
 import Dispage from './disclaims';
 import Suppopage from './supportpage';
+import Login from "./admin/Login";
+import DashBoard from "./admin/Dashboard";
+import Category from "./admin/Category";
+import AddCategory from "./admin/AddCategory";
+import EditCategory from "./admin/EditCategory";
+import Blog from "./admin/Blog";
+import AddBlog from "./admin/AddBlog";
+import EditBlog from "./admin/EditBlog";
 // import Mainpackages from './MyPackages';
 
 
@@ -48,7 +56,14 @@ function App() {
         <Route path="/terms" element={<Termspage/>} />
         <Route path="/disclaimer" element={<Dispage/>} />
         <Route path="/support" element={<Suppopage/>} />
-
+        <Route path="/admin" element={<Login />} />
+        <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/Category" element={<Category />} />
+        <Route path="/AddCategory" element={<AddCategory />} />
+        <Route path="/editblog/:id" element={<EditBlog />} />
+        <Route path="/editcategory/:id" element={<EditCategory />} />
+        <Route path="/adminblog" element={<Blog />} />
+        <Route path="/addblog" element={<AddBlog />} />
         {/* <Route path="/mains" element={<Mypackages/>} /> */}
         {/* <Route path="/location" element={<Location/>} /> */}
 
