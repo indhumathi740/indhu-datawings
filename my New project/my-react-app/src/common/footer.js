@@ -194,8 +194,8 @@ function Footer() {
                   <li className="quicklinks " ><Link to="/privs">Privacy Policy</Link></li>
                   <li className="quicklinks"><Link to="/terms">Terms and Conditions</Link></li>
                   <li className="quicklinks"><Link to="/disclaimer">Disclaimer</Link></li>
-                  <li className="quicklinks"><Link to="/support">Support</Link></li>
-                  <li className="quicklinks"><Link to="/quality">Cancellation & Refund</Link></li>
+                  <li className="quicklinks"><Link to="/">Support</Link></li>
+                  <li className="quicklinks"><Link to="/support">Cancellation & Refund</Link></li>
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3 con-foo">
