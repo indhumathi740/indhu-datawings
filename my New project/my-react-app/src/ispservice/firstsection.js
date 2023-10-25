@@ -1,5 +1,6 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import { Link } from "react-router-dom";
 
 function Firstsection() {
 
@@ -14,7 +15,7 @@ function Firstsection() {
                             <h1 className='content'>10x faster than the current standard of WiFi.</h1>
                             <p className='text-muted parafirsec'>Experience the future of connectivity with our WiFi service, 10x faster than the current standard. Elevate your digital experience today with infygain technologies.
                             </p>
-                            <div className='getbutton'><button className='btns-green '>get started</button></div>
+                            <div className='getbutton'><Link to="/packages"><button className='btns-green '>get started</button></Link></div>
                         </div>
                     </div>
                     <div className='col-lg-3 center-img'>
@@ -41,7 +42,7 @@ function Firstsection() {
                                     <i class="fa fa-regular fa-desktop " style={{ color: "#9cc723" }}></i>
                                 </div>
                                 <div className='col-md-6'>
-                                    <p className='rigtitletwo'><b>Satellite TV</b></p>
+                                    <p className='rigtitletwo'><b>IP TV</b></p>
                                     <p className='text-muted rigpara'>Access a world of channels and enjoy crystal-clear picture quality.</p>
                                 </div>
                             </div>

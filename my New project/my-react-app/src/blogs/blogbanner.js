@@ -8,7 +8,7 @@ function Bannerblog() {
         <>
 <div className=' head-isp-abou-blog'>
     <p className='head-isp-about'>Blogs</p>
-    <p className='head-isp-para'>Connect to a fast and reliable internet connection anywhere.</p>
+    <p className='head-isp-para'>Discover Valuable Insights on Fast & Reliable Internet in Our Blogs.</p>
 </div>
             
         </>

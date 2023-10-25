@@ -1,5 +1,7 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import { Link } from "react-router-dom";
+
 function Secondbanners() {
     return (
         <>
@@ -15,13 +17,13 @@ function Secondbanners() {
                                 <div className=' contentsections'>
                                     <div className='buttons' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>promo</button></div>
 
-                                    <p className='bannercontentoness' data-aos="fade-up" data-aos-duration="1000">Discount up to 30% for new members.</p>
+                                    <p className='bannercontentoness' data-aos="fade-up" data-aos-duration="1000">Lightning-Fast Internet Awaits You</p>
 
                                 </div>
                                 <div className='lists'>
-                                    <p className='bannercontentparas' data-aos="fade-up" data-aos-duration="1000">Join us today and enjoy a special offer! New members can avail of discounts up to 30% off. Don't miss out on this exclusive deal </p>
+                                    <p className='bannercontentparas' data-aos="fade-up" data-aos-duration="1000">Experience blazing-fast internet with [Your ISP Name]. Say goodbye to buffering and lag – choose your speed, connect, and enjoy the future of connectivity.</p>
                                 </div>
-                                <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-green'>get started</button></div>
+                                <div className='button' data-aos="fade-up" data-aos-duration="1000"><Link to="/packages"><button className='btns-green'>get started</button></Link></div>
                             </div>
                         </div>
                     </div>

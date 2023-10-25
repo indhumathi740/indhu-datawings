@@ -9,7 +9,7 @@ function Supports() {
   return (
     <div className='container policypage'>
     
-    <h2 className='privacy-hed'>DATAWINGS</h2>
+    <h2 className='privacy-hed'>CANCELLATION AND REFUND</h2>
 
       <h2 className='privacy-hed-side'>CANCELLATION POLICY</h2>
       <p>

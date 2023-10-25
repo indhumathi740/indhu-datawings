@@ -7,8 +7,9 @@ function Bannerpac() {
     return (
         <>
 <div className=' head-isp-abou-pacs'>
+
     <p className='head-isp-about'>Packages</p>
-    <p className='head-isp-para'>Connect to a fast and reliable internet connection anywhere.</p>
+    <p className='head-isp-para'>Unlock Seamless Internet Speeds for Your Digital Lifestyle.</p>
 </div>
             
         </>

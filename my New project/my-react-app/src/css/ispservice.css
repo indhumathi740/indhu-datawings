@@ -653,7 +653,11 @@
     font-weight: 600;
     font-size: 20px;
 }
-
+.blog-inn-cons{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;   
+}
 .details-blog-content {
     text-align: center;
     padding-bottom: 30px;
@@ -932,4 +936,18 @@
       }
   }
 
+.innerpiques{
+padding-top: 30px;
+}
 
+
+/*main-blog*/
+.details-blog-contents {
+    padding-bottom: 30px;
+    font-size: 18px;
+    
+}
+.blog-inn-cons{
+    text-decoration: none; 
+    color: inherit; 
+}

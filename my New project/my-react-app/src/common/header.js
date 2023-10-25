@@ -57,7 +57,7 @@ function header() {
             <div className="d-none d-lg-block col-lg-3">
               <div className="headhr">
                 <p>
-                  <a className="head-link" href="#">
+                  <a className="head-link" href="tel:+918220046331">
                     <FaRegClock />
                     &nbsp;&nbsp;&nbsp;&nbsp; +91 8220046331 & +91 8489204331
                   </a>
@@ -68,34 +68,34 @@ function header() {
               <div className="socialicons">
                 <a
                   className="head-link sm"
-                  href="https://www.facebook.com/infygain/"
+                  href="https://www.facebook.com/datawings/"
                 >
                   <LiaFacebookF />
                 </a>
                 <a
                   className="head-link sm"
-                  href="https://www.instagram.com/infygain/"
+                  href="https://www.instagram.com/datawings_teleinfra/"
                 >
                   <LiaInstagram />
                 </a>
-                <a className="head-link sm" href="https://twitter.com/infygain">
+                <a className="head-link sm" href="https://twitter.com/Datawingstel">
                   <LiaTwitter />
                 </a>
                 <a
                   className="head-link sm"
-                  href="https://www.linkedin.com/company/infygain-technologies/"
+                  href="https://www.linkedin.com/company/datawingsteleinfra/"
                 >
                   <LiaLinkedinIn />
                 </a>
                 <a
                   className="head-link sm"
-                  href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
+                  href="https://wa.me/8220046331"
                 >
                   <LiaWhatsapp />
                 </a>
                 <a
                   className="head-link sm"
-                  href="https://www.youtube.com/@infygain6707"
+                  href="https://www.youtube.com/channel/UCL1lKjlPpx6R2KrozMIBhNQ"
                 >
                   <LiaYoutube />
                 </a>
@@ -130,12 +130,7 @@ function header() {
                   Package
                 </Link>
               </li>
-              <li>
-                <Link className="mlink" to="/service">
-                  Services 
-                </Link>
-                
-              </li>
+              {/* s */}
               <li>
                 <Link className="mlink" to="/blog">
                  Blog

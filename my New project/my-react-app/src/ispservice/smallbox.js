@@ -1,5 +1,6 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import { Link } from "react-router-dom";
 
 function Smallbox() {
     return (
@@ -19,12 +20,12 @@ function Smallbox() {
         </div>
         <div className='col-lg-3 commonbac'>
             <div className='btncolor'>
-                <button className='btns-green getanobtn'>get started</button>
+                <Link to="/contact"><button className='btns-green getanobtn'>get started</button></Link>
             </div>
             <div className='row'>
 
                 <div className='col-lg-12 numb-small' data-aos="fade-left" data-aos-duration="1000"><p className='needcon'>
-                    NEED MORE HELP?<br></br>9952141444</p></div>
+                    NEED MORE HELP?<br></br>8220046331</p></div>
             </div>
         </div>
     </div>

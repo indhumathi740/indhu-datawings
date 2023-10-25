@@ -1,5 +1,7 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import { Link } from "react-router-dom";
+
 function Blogsection() {
     return (
         <>
@@ -81,7 +83,7 @@ function Blogsection() {
 
                         </div>
                     </div>
-                    <div className='button-blog'><button className='btns-green-blog'>get started</button></div>
+                    <div className='button-blog'><Link to="/blog"><button className='btns-green-blog'>get started</button></Link></div>
                 </div>
             </div>
 
@@ -92,7 +94,7 @@ function Blogsection() {
                             <div className='blo-tex'><h2 className=''>
                                 Stay safe with our secure, firewall-protected connection.</h2>
                                 <p className='backblog-para'>Experience peace of mind with our firewall-protected, secure connection. Your online safety is our top priority.</p></div>
-                            <div className='buttonlearan'><button className='btns-green-learnmoreanother'>learnmore</button></div>
+                            <div className='buttonlearan'><Link to="/aboutus"><button className='btns-green-learnmoreanother'>learnmore</button></Link></div>
 
                         </div>
 
@@ -102,7 +104,7 @@ function Blogsection() {
                             <div className='blo-tex'><h2 className=''>
                                 Next-Gen Wi-Fi® Tailored for Your Family's Connectivity Needs</h2>
                                 <p className='backblog-para'>Unlock the potential of next-generation Wi-Fi® designed with your family in mind.</p></div>
-                            <div className='buttonlearan'><button className='btns-green-learnmoreanother'>learnmore</button></div>
+                            <div className='buttonlearan'><Link to="/aboutus"><button className='btns-green-learnmoreanother'>learnmore</button></Link></div>
 
                         </div>
 

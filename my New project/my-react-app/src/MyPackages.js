@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './css/Packages.css';
 import { Link } from "react-router-dom";
+import { FaSpinner } from 'react-icons/fa';
 
 const placeOptions = [
   'All Locations',
@@ -388,14 +389,21 @@ const packagesData = {
 function MyPackages() {
   const [selectedLocation, setSelectedLocation] = useState('All Locations');
   const [packages, setPackages] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     if (selectedLocation === 'All Locations') {
+      setTimeout(() => {
       // Show default packages for all locations
       setPackages(packagesData['Coimbatore']);
+      setIsLoading(false);
+    }, 1000);
     } else {
+      setTimeout(() => {
       // Show packages for the selected location
       setPackages(packagesData[selectedLocation] || []);
+      setIsLoading(false);
+    }, 1000);
     }
   }, [selectedLocation]);
 
@@ -406,7 +414,11 @@ function MyPackages() {
   return (
     <div className="container packages-container">
       <h1 className='bannercontentone'>Our Packages</h1>
-
+      {isLoading && (
+        <div className="loading-icon">
+ <FaSpinner className="spin" />
+         </div>
+      )}
       <div className=' head-pac-h'>
         <div className=' gre-box'>
           <p className='text-muted locationcontent'> we provide high-speed internet solutions to keep you connected in today's digital world. Whether you're a casual user, a gamer, a business owner, or a streaming enthusiast, we have the perfect internet package to meet your specific needs.</p>

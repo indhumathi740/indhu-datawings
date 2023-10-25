@@ -115,50 +115,7 @@ function Footer() {
                 <p className="addressisp">
                   <b>info@datawings.co.in</b>
                 </p>
-                <div className="infyicon">
-                  <a
-                    target="_blank"
-                    href="https://www.facebook.com/infygain/"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-facebook data-icon"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://wa.me/919952141444"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-whatsapp"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://www.instagram.com/infygain/"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-instagram"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://www.linkedin.com/company/infygain-technologies/"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-linkedin"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://twitter.com/infygain"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-twitter"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://www.youtube.com/@infygain6707"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-youtube"></i>
-                  </a>
-                </div>
+               
               </div>
               <div className="col-xs-6 col-sm-3 quick-box">
                 <h1 className="mini-title two">Quick Links</h1>
@@ -170,7 +127,7 @@ function Footer() {
                   </li>
                   {/* <li> <Link to="/service">Services</Link></li> */}
                   <li>
-                    <Link to="/aboutus" className="link-without-underline">Aboutus</Link>
+                    <Link to="/aboutus" className="link-without-underline">About Us</Link>
                   </li>
                   <li>
                     {" "}
@@ -178,7 +135,7 @@ function Footer() {
                   </li>
                   <li>
                     {" "}
-                    <Link to="/service" className="link-without-underline">Services</Link>
+                    <Link to="/blog" className="link-without-underline">Blogs</Link>
                   </li>
                   <li>
                     {" "}
@@ -194,16 +151,62 @@ function Footer() {
                   <li className="quicklinks " ><Link to="/privs">Privacy Policy</Link></li>
                   <li className="quicklinks"><Link to="/terms">Terms and Conditions</Link></li>
                   <li className="quicklinks"><Link to="/disclaimer">Disclaimer</Link></li>
-                  <li className="quicklinks"><Link to="/">Support</Link></li>
+                  <li className="quicklinks"><Link to="/contact">Support</Link></li>
                   <li className="quicklinks"><Link to="/support">Cancellation & Refund</Link></li>
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3 con-foo">
-                <p className="fours">Get exclusive deals by signing up to our Newsletter.</p>
-                <div className="col-md-6 form-group emai-btn">
-           <input type="text" className="form-control messagesfoo" placeholder="Your Email *" required />
-           <div className="foo-main-btn"><button className="btns-green-learnmoreanother">SignUp</button></div>
-                                    </div>
+                <p className="fours">Connect with us on social media for the latest updates and news.</p>
+                <div className="icoinf">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/datawings/"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-facebook data-icon"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://wa.me/8220046331"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-whatsapp"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/datawings_teleinfra/"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-instagram"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/datawingsteleinfra/"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-linkedin"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://twitter.com/Datawingstel"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-twitter"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/channel/UCL1lKjlPpx6R2KrozMIBhNQ"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-youtube"></i>
+                  </a>
+
+                </div>
+                
+                                    
+                 <div className="col-md-6 form-group emai-btn">
+           <div className="foo-main-btn"><button className="btns-green-learnmoreanothers">Stay Connect</button></div>
+                                    </div> 
               </div>
             </div>
           </div>
