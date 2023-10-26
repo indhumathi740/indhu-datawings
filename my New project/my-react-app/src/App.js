@@ -30,6 +30,9 @@ import EditCategory from "./admin/EditCategory";
 import Blog from "./admin/Blog";
 import AddBlog from "./admin/AddBlog";
 import EditBlog from "./admin/EditBlog";
+import ScrollToTop from "./common/scrollToTop";
+
+import './css/styles.css'; // Import the CSS file with Google Fonts
 // import Mainpackages from './MyPackages';
 
 
@@ -39,7 +42,9 @@ function App() {
     <div className="App">
     {/* <Banner />
     <Firstsection /> */}
+       <ScrollToTop />
    <Routes>
+
         <Route path="/" element={<Ispservice />} />
     
         <Route path="/packages" element={<Packages/>} />

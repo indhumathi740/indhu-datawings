@@ -15,7 +15,7 @@ function Smallbox() {
         <div className='col-lg-6   commonbac' data-aos="fade-up" data-aos-duration="1000">
             <p className='smallconten'>
 
-                Discover a simple, reliable, and affordable solution for unlimited internet access with Infygain technologies. Stay connected without limits.</p>
+                Discover a simple, reliable, and affordable solution for unlimited internet access with Datawings Teleinfras . Stay connected without limits.</p>
             <p className='smallpara'>Unlock unlimited internet access with our simple, reliable, and affordable solution</p>
         </div>
         <div className='col-lg-3 commonbac'>

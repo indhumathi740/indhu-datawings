@@ -15,7 +15,7 @@ function Secondbannerbelowcon() {
 
                             </div>
                             <div className='col-md-6' data-aos="fade-left" data-aos-duration="1000">
-                                <p className='text-muted ban-two-con'>Discover the expertise of our trusted Internet service professionals at Infygain technologies. Count on us for reliable connectivity solutions and exceptional service.</p>
+                                <p className='text-muted ban-two-con'>Discover the expertise of our trusted Internet service professionals at Datawings Teleinfra. Count on us for reliable connectivity solutions and exceptional service.</p>
                                 <div className='button'><Link to="/aboutus"><button className='btns-green-learn'>learn more</button></Link></div>
 
                             </div>

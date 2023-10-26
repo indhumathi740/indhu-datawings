@@ -24,7 +24,7 @@ function Forms() {
                                         <p className='rigtitle'><b>Head office</b></p>
                                         <p className='text-muted rigpara'>3/115, NARYIAMPALLIPUDUR
                                             KARUVALUR ANNUR<br></br> COIMBATORE
-                                            TAMILNADU-641653 IN</p>
+                                            TAMILNADU-641653 INDIA </p>
                                     </div>
                                 </div>
 
@@ -35,8 +35,8 @@ function Forms() {
                                         <img src="/images/banner/Text.png" alt="service icons" className='  fa-isp'></img>                                </div>
                                     <div className='col-md-10 icon-isp-about-con'>
                                         <p className='rigtitletwo'><b>Email us</b></p>
-                                        <p className='text-muted rigpara'>Technical : info@datawingstel.in<br></br>
-                                            Sales : hello@datawingstel.in</p>
+                                        <p className='text-muted rigpara'>Technical :  info@datawings.co.in<br></br>
+                                            {/* Sales : hello@datawingstel.in</p> */}</p>
                                     </div>
                                 </div>
 

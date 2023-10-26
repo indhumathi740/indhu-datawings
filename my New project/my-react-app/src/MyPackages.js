@@ -412,8 +412,10 @@ function MyPackages() {
   };
 
   return (
-    <div className="container packages-container">
-      <h1 className='bannercontentone'>Our Packages</h1>
+    <div className="container packages-container" data-aos="fade-up" data-aos-duration="2000">
+      {/* <h1 className='bannercontentone'>Our Packages</h1> */}
+<button className='btns-greens-third'>choose your package</button>
+
       {isLoading && (
         <div className="loading-icon">
  <FaSpinner className="spin" />

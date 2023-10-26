@@ -2,8 +2,6 @@ import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-
-
 import { FaComputer } from "react-icons/fa6";
 function Services() {
   return (
@@ -21,12 +19,10 @@ function Services() {
               <div className='buttons'><Link to='/lle'>
           <button className='btns-greenbox'>View Details</button>
         </Link></div>
-
-
             </div>
           </div>
           <div className="servicebox col-lg-4">
-            <div className="serviceContent">
+            <div className="serviceContent"> 
               <div className='des'><i class="fa fa-solid fa-gears" style={{ color: "#9cc723" }}></i></div>
 
               <h2 className="mids-title">SME Line</h2>

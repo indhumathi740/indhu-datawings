@@ -7,6 +7,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
+
 function Servicetestimonial() {
     var settings = {
         dots: true,
@@ -15,6 +17,7 @@ function Servicetestimonial() {
         slidesToShow: 3,
         slidesToScroll: 4,
         initialSlide: 0,
+        arrows: true,
         responsive: [
           {
             breakpoint: 1024,
@@ -89,7 +92,7 @@ function Servicetestimonial() {
                             <div className='des-blog'><i class="fa fa-user" style={{ color: "#9cc723" }}></i></div>
 
                                 <p className="text-muted box-conin-serv">
-                                    "Good service provider in Coimbatore location, they provide uninterrupted broadband."              </p>
+                                    "Good service provider in Coimbatore location."              </p>
                                 <p className='name-testi'>selvikkoc</p>
                                 <p className='role-testi'>BUSINESS MANAGER</p>
 

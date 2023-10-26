@@ -33,7 +33,7 @@ function Finalbanner() {
 
                                         <h2 className="las-blo-title">Customer Services</h2>
                                         <p className="text-muted box-conin">
-                                            At Infygain technologies, exceptional customer service is our promise. We're here to assist you every step of the way.                                    </p>
+                                            At Datawings Teleinfra, exceptional customer service is our promise. We're here to assist you every step of the way.                                    </p>
                                         <div className='buttons'> <a href="tel:+91  8220046331" className='btns-greenbox link-without-underline'>Call now</a></div>
 
 

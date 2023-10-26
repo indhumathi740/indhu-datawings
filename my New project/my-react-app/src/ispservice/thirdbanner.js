@@ -47,7 +47,7 @@ function Thirdbanner() {
                                         <p className='pac-amount'> Rs 1500/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mslink" to="/contact">
                                             subscribe now                </Link>
                                         </button></div>
 
@@ -77,7 +77,7 @@ function Thirdbanner() {
                                         <p className='pac-amount'> Rs 2500/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mslink" to="/contact">
                                             subscribe now                </Link>
                                         </button></div>
 
@@ -107,7 +107,7 @@ function Thirdbanner() {
 
                                         <div className='buttons'><button className='btns-greenbox'>
 
-                                            <Link className="mlink" to="/contact">
+                                            <Link className="mslink" to="/contact">
                                                 subscribe now
                                             </Link>
                                         </button></div>

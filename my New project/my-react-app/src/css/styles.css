@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Import the Google Fonts */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Noto Sans' !important;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+ 
+}
+h2{
+    font-family: 'Noto Sans', sans-serif;
+ 
+}
+
+li{
+    font-family: 'Noto Sans', sans-serif;
+ 
+}
+button{
+    font-family: 'Noto Sans', sans-serif;
+ 
+}

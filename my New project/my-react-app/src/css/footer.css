@@ -529,30 +529,43 @@ color: white;
 }
 
 .fa-instagram:hover {
-    color: white;
+    color: var(--ispsec);
 }
 
 .fa-twitter:hover {
-    color: white;
+    color: var(--ispsec);
 }
 
 .fa-whatsapp:hover {
-    color: white;
+    color: var(--ispsec);
 }
 
 .fa-linkedin:hover {
-    color: white;
+    color: var(--ispsec);
 }
 .fa-youtube:hover {
-    color: white;
+    color: var(--ispsec);
 }
-
-
 
 .fa-facebook:hover {
-    color: white;
+    color: var(--ispsec);
 }
-.icoinf{
-    color: var(  --ispsec);
- 
+/* .icoinf{
+    color: white;
+width: 58%; 
+box-shadow: 0 0 20px rgba(59, 233, 24, 0.5);
+
+} */
+@media (width<=740px){
+    .mlink:hover {
+        border-bottom: 4px solid #99CC03; 
+        padding-bottom: 5px; 
+        font-weight: bold;
+      }
+}
+@media (width<=800px){
+
+.lastcolfoo{
+    padding-left: 40px;
+}
 }

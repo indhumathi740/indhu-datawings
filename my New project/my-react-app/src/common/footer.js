@@ -102,7 +102,7 @@ function Footer() {
 
           <div className="smallbox-1">
             <div className="row">
-              <div className="col-xs-6 col-sm-3">
+              <div className="col-md-3">
                 <h1 className="mini-title three">Address</h1>
                 <p className="address">
                   <p>
@@ -117,7 +117,7 @@ function Footer() {
                 </p>
                
               </div>
-              <div className="col-xs-6 col-sm-3 quick-box">
+              <div className="col-md-3">
                 <h1 className="mini-title two">Quick Links</h1>
                 <ul className="text-muted quicklinks mb-5">
                   {/* <li> <Link to="/">Home</Link></li> */}
@@ -145,7 +145,7 @@ function Footer() {
                   {/* <li> <Link to="/contact">Book Services</Link></li> */}
                 </ul>
               </div>
-              <div className="col-xs-6 col-sm-3 link-without-underline">
+              <div className="col-md-3 link-without-underline">
                 <h1 className="mini-title four">Legal Links</h1>
                 <ul className="text-muted legallinks">
                   <li className="quicklinks " ><Link to="/privs">Privacy Policy</Link></li>
@@ -155,7 +155,7 @@ function Footer() {
                   <li className="quicklinks"><Link to="/support">Cancellation & Refund</Link></li>
                 </ul>
               </div>
-              <div className="col-xs-6 col-sm-3 con-foo">
+              <div className="col-md-3 lastcolfoo">
                 <p className="fours">Connect with us on social media for the latest updates and news.</p>
                 <div className="icoinf">
                   <a
@@ -204,7 +204,7 @@ function Footer() {
                 </div>
                 
                                     
-                 <div className="col-md-6 form-group emai-btn">
+                 <div className=" form-group emai-btn">
            <div className="foo-main-btn"><button className="btns-green-learnmoreanothers">Stay Connect</button></div>
                                     </div> 
               </div>
