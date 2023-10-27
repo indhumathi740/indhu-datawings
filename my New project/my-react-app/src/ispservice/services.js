@@ -6,9 +6,9 @@ import { FaComputer } from "react-icons/fa6";
 function Services() {
   return (
     <>
-      <div className='container services' data-aos="zoom-in-up" data-aos-duration="2000">
+      <div className='container services'>
         <div className='row Boxss'>
-          <div className="servicebox col-lg-4">
+          <div className="servicebox col-lg-4"  data-aos="zoom-in-up" data-aos-duration="2000">
             <div className="serviceContent">
               <div className='des'><i class="fa fa-regular fa-globe globe " style={{ color: "#9cc723" }}></i></div>
 
@@ -21,7 +21,7 @@ function Services() {
         </Link></div>
             </div>
           </div>
-          <div className="servicebox col-lg-4">
+          <div className="servicebox col-lg-4"  data-aos="zoom-in-up" data-aos-duration="2000">
             <div className="serviceContent"> 
               <div className='des'><i class="fa fa-solid fa-gears" style={{ color: "#9cc723" }}></i></div>
 
@@ -35,7 +35,7 @@ function Services() {
 
 
             </div>
-          </div>   <div className="servicebox col-lg-4">
+          </div>   <div className="servicebox col-lg-4" data-aos="zoom-in-up" data-aos-duration="2000">
             <div className="serviceContent">
               <div className='des'><i class="fa fa-solid fa-wifi" style={{ color: "#9cc723" }}></i></div>
 
@@ -52,7 +52,7 @@ function Services() {
           </div>
         </div>
         <div className='row Boxsss'>
-          <div className="servicebox col-lg-4">
+          <div className="servicebox col-lg-4"data-aos="zoom-in-up" data-aos-duration="2000">
             <div className="serviceContent">
               <div className='des'><i class="fa fa-solid fa-tv" style={{ color: "#9cc723" }}></i></div>
 
@@ -62,14 +62,14 @@ function Services() {
               <p className="text-muted box-conin">
                 Explore our comprehensive range of Broadband, IPTV, and Voice services, designed to elevate your digital experience to new heights.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><Link to='/tv'>
+              <div className='buttons'><Link to='/packages'>
           <button className='btns-greenbox'>View Details</button>
         </Link></div>
 
 
             </div>
           </div>
-          <div className="servicebox col-lg-4">
+          <div className="servicebox col-lg-4"data-aos="zoom-in-up" data-aos-duration="2000">
             <div className="serviceContent">
               <div className='des'><i class="fa fa-solid fa-desktop " style={{ color: "#9cc723" }}></i></div>
 
@@ -82,7 +82,7 @@ function Services() {
 
             </div>
           </div>
-          <div className="servicebox col-lg-4">
+          <div className="servicebox col-lg-4"data-aos="zoom-in-up" data-aos-duration="2000">
             <div className="serviceContent">
               <div className='des'><i class="fa fa-solid fa-lock" style={{ color: "#9cc723" }}></i></div>
 

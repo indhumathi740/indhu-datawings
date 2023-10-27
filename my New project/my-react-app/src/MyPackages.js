@@ -414,7 +414,6 @@ function MyPackages() {
   return (
     <div className="container packages-container" data-aos="fade-up" data-aos-duration="2000">
       {/* <h1 className='bannercontentone'>Our Packages</h1> */}
-<button className='btns-greens-third'>choose your package</button>
 
       {isLoading && (
         <div className="loading-icon">
@@ -423,10 +422,10 @@ function MyPackages() {
       )}
       <div className=' head-pac-h'>
         <div className=' gre-box'>
-          <p className='text-muted locationcontent'> we provide high-speed internet solutions to keep you connected in today's digital world. Whether you're a casual user, a gamer, a business owner, or a streaming enthusiast, we have the perfect internet package to meet your specific needs.</p>
           <h2 className='las-blo-titlessisp'>Choose your location</h2>
-        </div>
-        <div className='allloca'>
+          <p className='text-muted locationcontent'> we provide high-speed internet solutions to keep you connected in today's digital world. Whether you're a casual user, a gamer, a business owner, or a streaming enthusiast, we have the perfect internet package to meet your specific needs.</p>
+
+          <div className='allloca'>
           <select value={selectedLocation} onChange={handleLocationChange} className="select-dropdown ">
             {placeOptions.map((place, index) => (
               <option key={index} value={place}>
@@ -435,6 +434,12 @@ function MyPackages() {
             ))}
           </select>
         </div>
+        {/* <p className='text-muted locationcontent'> we provide high-speed internet solutions to keep you connected in today's digital world. Whether you're a casual user, a gamer, a business owner, or a streaming enthusiast, we have the perfect internet package to meet your specific needs.</p> */}
+
+        </div>
+       
+        <button className='btns-greens-third'>choose your package</button>
+
       </div>
 
       <div className='services'>

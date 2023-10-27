@@ -18,6 +18,8 @@ function Servicetestimonial() {
         slidesToScroll: 4,
         initialSlide: 0,
         arrows: true,
+        prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
         responsive: [
           {
             breakpoint: 1024,
@@ -45,6 +47,24 @@ function Servicetestimonial() {
           }
         ]
       };
+      
+  function CustomPrevArrow(props) {
+    const { onClick } = props;
+    return (
+      <button className="custom-prev-arrow" onClick={onClick}>
+        <i className="fa fa-angle-left"></i>
+      </button>
+    );
+  }
+
+  function CustomNextArrow(props) {
+    const { onClick } = props;
+    return (
+      <button className="custom-next-arrow" onClick={onClick}>
+        <i className="fa fa-angle-right"></i>
+      </button>
+    );
+  }
     return (
         
         <>
@@ -112,6 +132,7 @@ function Servicetestimonial() {
                             </Slider>
                     </div>
                 </div>
+                
             </div>
         </>
 

@@ -3,39 +3,67 @@ import './css/ispservice.css';
 import Bannerblog from './blogs/blogbanner';
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Header from './common/header';
+import Footer from './common/footer';
+import { useNavigate, useParams } from "react-router-dom";
 
 // ss
 function OverBlogs() {
-    const [blogs, setBlogs] = useState([]);
-
+  const { id } = useParams();
+  const [blogs, setBlogs] = useState({
+    id: "",
+    date: "",
+    title: "",
+    category: "",
+    quote: "",
+    metades: "",
+    metakey: "",
+    content: "",
+    img: "",
+    status: "Active",
+  });
   useEffect(() => {
-    axios.get("https://infygain.in/api/blogdata").then((res) => {
-      setBlogs(res.data);
-      
-    });
-  }, []);
-  function dateSlice(id){
-    const rawDate = blogs[id].date;
-    const blogDate = rawDate.slice(0, 10);
-    return blogDate;
-}
-console.log(blogs[0])
-          
+    axios
+      .get("https://infygain.in/api/editblog/" + id)
+      .then((res) => {
+        console.log(res)
+        const blogData = res.data.result[0];
+        setBlogs({
+          ...blogs,
+          id: blogData.id,
+          date: blogData.date,
+          title: blogData.title,
+          category: blogData.category,
+          quote: blogData.quote,
+          content: blogData.content,
+          metades: blogData.metades,
+          metakey: blogData.metakey,
+          img: blogData.img,
+          status: blogData.status,
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, [id]);
+  const rawDate = blogs.date;
+        const blogDate = rawDate.slice(0, 10);
+          console.log(blogs.content)
     return (
         <>
+        <Header />
         <Bannerblog />
         <div className=' container'>
-        {blogs.map((value, index)=>(
 
             <div className='overallpique'>
                 <div className='innerpiques'>
-                    <img src={"../uploads/"+ value.img} className='image-fluid dataimg' />
+                    <img src={"../uploads/"+ blogs.img} className='image-fluid dataimg' />
                     <div className='valuamount'>
-                    <p className='blog-inn-cons'>{dateSlice(index)}</p>
+                    <p className='blog-inn-cons'>{blogDate}</p>
 
-                        <p className=' blog-inn-cons'>{value.title}</p>
+                        <p className=' blog-inn-cons'>  {blogs.title}</p>
                         
-                        <p className='text-muted details-blog-contents'>     {stripHTMLTags(value.content)}  </p>
+                        <p className='text-muted details-blog-contents'>    {stripHTMLTags(blogs.content)}  </p>
                     </div>
                     {/* <div className='buttongroupin'>
                     <div className='buttonque'><img src="/images/facebook.png" className='blogmail image-fluid'></img>
@@ -46,9 +74,10 @@ console.log(blogs[0])
                     </div> */}
                 </div>
             </div>
-                               ))}
+                            
 
         </div>
+        <Footer />
         </>
     )
 }

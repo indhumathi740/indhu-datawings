@@ -35,7 +35,7 @@ function Forms() {
                                         <img src="/images/banner/Text.png" alt="service icons" className='  fa-isp'></img>                                </div>
                                     <div className='col-md-10 icon-isp-about-con'>
                                         <p className='rigtitletwo'><b>Email us</b></p>
-                                        <p className='text-muted rigpara'>Technical :  info@datawings.co.in<br></br>
+                                        <p className='text-muted rigpara'>Sales :  info@datawings.co.in<br></br>Support : support@datawings.co.in
                                             {/* Sales : hello@datawingstel.in</p> */}</p>
                                     </div>
                                 </div>
@@ -48,9 +48,9 @@ function Forms() {
                                     <div className='col-md-10 pho-ic-tit'>
                                         <p className='rigtitle'><b>
                                             Head office</b></p>
-                                        <div className='ic-para'><p className='text-muted rigpara'>Technical : +91 8220046331<br></br>
+                                        <div className='ic-para'><p className='text-muted rigpara'>Sales : +91 8220046331<br></br>
 
-                                            Sales : +91 8489204331</p></div>
+                                            Support : +91 9940774077</p></div>
                                     </div>
                                 </div>
                             </div>

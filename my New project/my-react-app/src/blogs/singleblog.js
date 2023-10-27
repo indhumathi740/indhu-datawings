@@ -46,7 +46,7 @@ const DwBlogs = () => {
               {/* hiii */}
             </div>
             <div className='dw-blogs3'>
-              <Link className=' blog-inn-conse' to="/overblog"><span className=' blog-inn-conse '>{value.title}</span></Link>
+              <Link className=' blog-inn-conse' to={"/mainblog/"+value.id}><span className=' blog-inn-conse '>{value.title}</span></Link>
               <p className='blog-main-contentss'>
                 {stripHTMLTags(value.content)}  </p>
               <span className='dw-blog-date'>{dateSlice(index)}</span>

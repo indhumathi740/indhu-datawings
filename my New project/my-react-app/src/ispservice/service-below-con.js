@@ -7,7 +7,7 @@ function Servbelowcont() {
         <>
             <div className=' container service-below-sec'>
                 <div className='row align-items-center'>
-                    <div className='col-md-6 con-boxse' data-aos="zoom-in-right" data-aos-duration="2000">
+                    <div className='col-md-6 conboxse' data-aos="zoom-in-right" data-aos-duration="2000">
                         <div className='button '><button className='btns-greens'>WHO WE ARE</button></div>
                         <h1 className='head-serv'>Empowering people through technology.</h1>
                         <p className='text-muted ser-below-cont'>Providing Cutting-Edge Solutions for a Connected World. Experience the future with us.</p>

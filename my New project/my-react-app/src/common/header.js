@@ -59,7 +59,7 @@ function header() {
                 <p>
                   <a className="head-link" href="tel:+918220046331">
                     <FaRegClock />
-                    &nbsp;&nbsp;&nbsp;&nbsp; +91 8220046331 & +91 8489204331
+                    &nbsp;&nbsp;&nbsp;&nbsp; +91 8220046331 & +91 9940774077
                   </a>
                 </p>
               </div>

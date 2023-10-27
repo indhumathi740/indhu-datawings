@@ -49,3 +49,41 @@
     padding-top: 20px;
     font-weight: 500;
 }
+/* Styles for the custom prev arrow */
+.custom-prev-arrow {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    z-index: 1;
+    background-color: #fff; /* Background color */
+    padding: 10px;
+    border: 1px solid #ddd; /* Border styles */
+    
+    border-radius: 50%; /* Make it round */
+    color: #000; /* Arrow color */
+    font-size: 24px;
+    transform: translateY(-50%);
+  }
+  
+  /* Styles for the custom next arrow */
+  .custom-next-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 1;
+    background-color: #fff; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50%; 
+    color: #000; 
+    font-size: 24px;
+    transform: translateY(-50%);
+  }
+  
+
+  .custom-prev-arrow:hover,
+  .custom-next-arrow:hover {
+    background-color: var(--ispsec); 
+    color: #fff; 
+  }
+  

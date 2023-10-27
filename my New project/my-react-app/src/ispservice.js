@@ -18,6 +18,8 @@ import 'aos/dist/aos.css';
 import Smallbox from './ispservice/smallbox';
 import Secondbannerbelowcon from './ispservice/secbannerbelow';
 import DwBlogs from './blogs/singleblog';
+import Carousel1 from './ispservice/carousel1';
+import Carouselabout from './ispservice/carousel';
 
 function Ispservice() {
   useEffect(() => {
@@ -35,6 +37,7 @@ function Ispservice() {
         <Firstsection />
         <Smallbox />
         <Secondbanner />
+        <Carouselabout/>
         <Secondbannerbelowcon />
         <Services />
         <Servbelowcont />
@@ -42,7 +45,10 @@ function Ispservice() {
         <Blogsection />
         <DwBlogs />
         <Finalbanner />
+        <Carousel1 />
         <Footer />
+   
+
       </div>
       {/* <Enquiry/>
         <Footer /> */}

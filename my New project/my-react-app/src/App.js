@@ -56,7 +56,7 @@ function App() {
         <Route path="/sme" element={<Packagessmes/>} />
         <Route path="/lle" element={<Packageslles/>} />
         <Route path="/tv" element={<Packagestv/>} />
-        <Route path="/overblog" element={<OverBlogs/>} />
+        <Route path="/mainblog/:id"  element={<OverBlogs/>} />
         <Route path="/privs" element={<Footerprivacypage/>} />
         <Route path="/terms" element={<Termspage/>} />
         <Route path="/disclaimer" element={<Dispage/>} />
@@ -69,6 +69,7 @@ function App() {
         <Route path="/editcategory/:id" element={<EditCategory />} />
         <Route path="/adminblog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
+
         {/* <Route path="/mains" element={<Mypackages/>} /> */}
         {/* <Route path="/location" element={<Location/>} /> */}
 
