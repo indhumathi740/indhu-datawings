@@ -37,7 +37,7 @@ function Ispservice() {
         <Firstsection />
         <Smallbox />
         <Secondbanner />
-        <Carouselabout/>
+        {/* <Carouselabout/> */}
         <Secondbannerbelowcon />
         <Services />
         <Servbelowcont />
