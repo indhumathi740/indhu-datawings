@@ -119,7 +119,7 @@ function Forms() {
                                         <img src="/images/banner/ph.png" alt="service icons" className='fa-isp'></img>                                </div>
                                     <div className='col-md-10 pho-ic-tit'>
                                         <p className='rigtitle'><b>
-                                            Head office</b></p>
+                                            Contact us</b></p>
                                         <div className='ic-para'><p className='text-muted rigpara'>Sales : +91 8220046331<br></br>
 
                                             Support : +91 9940774077</p></div>

@@ -12,7 +12,10 @@ import "../css/header.css";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import Fixedline from '../services/Fixedline';
-
+import { BsTelephoneFill } from "react-icons/bs";
+// import {BsTelephone } from "react-icons/bs";
+// import { AiOutlineMail } from "react-icons/ai";
+import { MdMail } from "react-icons/md";
 function header() {
   function DropdownMenu() {
     let dropBox = document.querySelector(".menu-box-drop");
@@ -49,7 +52,7 @@ function header() {
             <div className="d-none d-md-block col-md-3 col-lg-3">
               <p>
                 <a className="head-link" href="mailto:info@datawingstel.in">
-                  <HiOutlineMail />
+                  <MdMail />
                   &nbsp;&nbsp;&nbsp;&nbsp; info@datawings.co.in
                 </a>
               </p>
@@ -58,7 +61,7 @@ function header() {
               <div className="headhr">
                 <p>
                   <a className="head-link" href="tel:+918220046331">
-                    <FaRegClock />
+                    <BsTelephoneFill />
                     &nbsp;&nbsp;&nbsp;&nbsp; +91 8220046331 & +91 9940774077
                   </a>
                 </p>
