@@ -2,15 +2,87 @@ import 'font-awesome/css/font-awesome.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import '../css/contact.css';
+import { useState, useEffect } from "react";
+import axios from "axios";
+import Alert from "react-bootstrap/Alert";
 
 function Forms() {
+    const [values, setValues] = useState({
+        name: "",
+        phone: "",
+        email:"",
+        category: "",
+        subject: "",
+        message: ""
+      });
+
+      
+      const [errors, setErrors] = useState("");
+      const [show, setShow] = useState(false);
+      const [showMsg, setShowMsg] = useState(false);
+    
+      const handleInput = (e) => {
+        setValues((prev) => ({
+          ...prev,
+          [e.target.name]: [e.target.value],
+        }));
+      };
+      
+      const handleSubmit = (e) => {
+        e.preventDefault();
+          axios
+            .post("https://infygain.in/api/contact", values)
+            .then((res) => {
+                if(res.data.info){
+                    setValues({
+                        name: "",
+                        phone: "",
+                        email:"",
+                        category: "",
+                        subject: "",
+                        message: ""
+                      });
+                      document.querySelector(".form").reset()
+                      setErrors(res.data.info);
+                      setShowMsg(true);
+                }
+                else{
+                    setErrors(res.data.err);
+                    setShow(true);
+                }
+              
+            })
+            .catch((err) => {
+              console.log(err);
+            });
+      };
+      
+    
+      function alertBox() {
+        if (show) {
+          return (
+            <Alert variant="danger" onClose={() => setShow(false)} dismissible>
+              {errors}
+            </Alert>
+          );
+        }
+      }
+      function msgBox() {
+        if (showMsg) {
+          return (
+            <Alert variant="success" onClose={() => setShowMsg(false)} dismissible>
+              {errors}
+            </Alert>
+          );
+        }
+      }
     return (
         <>
             <div className='isp-con-overal-con'>
                 <div className='container contact-form'>
 
                     <div className='row formrow'>
-
+                  
                         <div className=' container col-lg-6 rightsidecontents' data-aos="fade-left" >
                             <div className='row overall-con'>
                                 <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>get in touch</button></div>
@@ -57,32 +129,34 @@ function Forms() {
                         </div>
                         <div className='col-md-6 col-lg-6   isp-form-box'>
                             <p className=' isp-contact-form'>Send us a message</p>
-                            <form>
+                            {alertBox()}
+                        {msgBox()}
+                            <form className="form" method='POST' onSubmit={handleSubmit}>
                                 <div className="row box">
                                     <div className="col-md-6 form-group form-groupsisp">
                                         <label>Name </label>
-                                        <input type="text" className="form-control messages" placeholder="Your name *" required />
+                                        <input name="name" type="text" className="form-control messages" placeholder="Your name *" onChange={handleInput} required />
                                     </div>
                                     <div className="col-md-6 form-group form-groupsisp">
                                         <label className=''>
                                             Company </label>
-                                        <input type="phone" className="form-control messages" placeholder="Company*" required />
+                                        <input name="company" type="text" className="form-control messages" placeholder="Company*"  onChange={handleInput} required />
                                     </div>
                                     <div className="col-md-6 form-group form-groupsisp">
                                         <label>Phone  </label>
-                                        <input type="email" className="form-control messages " placeholder="Phone *" required />
+                                        <input name="phone" type="phone" className="form-control messages " placeholder="Phone *"  onChange={handleInput} required />
                                     </div>
                                     <div className="col-md-6 form-group form-groupsisp">
                                         <label>Email </label>
-                                        <input type="text" className="form-control messages" placeholder="Email " required />
+                                        <input name="email" type="email" className="form-control messages" placeholder="Email "  onChange={handleInput} required />
                                     </div>
                                     <div className="form-group form-groupsisp">
                                         <label>Subject </label>
-                                        <input type="text" className="form-control messages" placeholder="Subject" required />
+                                        <input name="subject" type="text" className="form-control messages" placeholder="Subject"  onChange={handleInput} required />
                                     </div>
                                     <div className=" form-group form-groupsisp">
                                         <label>Message </label>
-                                        <input type="textarea" className="form-control message" placeholder="Your Message" required />
+                                        <input name="message" type="textarea" className="form-control message" placeholder="Your Message"  onChange={handleInput} required />
                                     </div>
                                 </div>
                                 <div className='btn-isp-con'>
