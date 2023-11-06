@@ -91,3 +91,17 @@ background-color: rgb(255, 255, 255);
 .con-boxse{
     padding-top: 20px;
 }
+
+
+
+
+/*404page*/
+.fournotfour{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four-button{
+    text-align: center;
+}

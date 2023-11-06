@@ -33,6 +33,7 @@ import EditBlog from "./admin/EditBlog";
 import ScrollToTop from "./common/scrollToTop";
 
 import './css/styles.css'; // Import the CSS file with Google Fonts
+import Four from './404';
 // import Mainpackages from './MyPackages';
 
 
@@ -69,7 +70,7 @@ function App() {
         <Route path="/editcategory/:id" element={<EditCategory />} />
         <Route path="/adminblog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
-
+        <Route path="*" element={<Four />} />
         {/* <Route path="/mains" element={<Mypackages/>} /> */}
         {/* <Route path="/location" element={<Location/>} /> */}
 
