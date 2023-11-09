@@ -53,13 +53,13 @@ function Firstsection() {
                                 <div className='col-md-4'>
                                     <i class="fa fa-phone" style={{ color: "#9cc723" }}></i>
                                 </div>
-                                <div className='col-md-6 pho-ic-tit'>
+                                <div className='col-md-6 '>
                                     <p className='rigtitle'><b>
                                         VOIP</b></p>
                                     <div className='ic-para'><p className='text-muted rigpara'>Stay connected with clarity and reliability through VOIP </p></div>
                                 </div>
                             </div>
-
+ 
                         </div>
                     </div>
                 </div>

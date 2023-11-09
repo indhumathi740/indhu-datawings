@@ -97,11 +97,19 @@ background-color: rgb(255, 255, 255);
 
 /*404page*/
 .fournotfour{
+
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.four-button{
+  }
+  .four-button{
     text-align: center;
-}
+    
+  }
+  
+  .four-text{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
