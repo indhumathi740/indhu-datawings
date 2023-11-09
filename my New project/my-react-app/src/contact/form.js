@@ -30,8 +30,8 @@ function Forms() {
       
       const handleSubmit = (e) => {
         e.preventDefault();
-          axios
-            .post("https://infygain.in/api/contact", values)
+        axios.post("http://localhost:5000/api/contact", values)
+
             .then((res) => {
                 if(res.data.info){
                     setValues({
