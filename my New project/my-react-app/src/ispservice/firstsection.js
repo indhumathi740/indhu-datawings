@@ -19,7 +19,7 @@ function Firstsection() {
                         </div>
                     </div>
                     <div className='col-lg-3 center-img'>
-                        <div className='' ><img src="../images/banner/ispimage.png" alt="Image Description" class="ispimage" />
+                        <div className='' ><img src="../images/banner/ispimage.png" alt="Image Description" class="ispimage" title='current standard of WiFi'/>
                         </div>
                     </div>
 

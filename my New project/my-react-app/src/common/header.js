@@ -114,7 +114,7 @@ function header() {
               <img
                 className=" datawings-logo"
                 src="./images/icons/LOGO DATAWINGS.png"
-                alt="infygain logo"
+                alt="Datawings logo"title="Datawings logo"
               ></img>
             </div>
             <div className="menu-box">

@@ -10,7 +10,7 @@ function Servicesabout() {
             <div className="serviceContentss">
               <div className='des'> <img
                 className="img-fluid"
-                src="./images/icons/ICON3.png"
+                src="./images/icons/ICON3.png"title='Our Vision'
                 alt="infygain logo"
               ></img></div>
 
@@ -25,7 +25,7 @@ function Servicesabout() {
             <div className='des'><img
                 className="img-fluid"
                 src="./images/icons/ICON2.png"
-                alt="infygain logo"
+                alt="infygain logo"title='Our Mission'
               ></img></div>
 
               <h2 className="mids-titles-isp">Our Mission</h2>
@@ -39,7 +39,7 @@ function Servicesabout() {
             <div className='des'><img
                 className="img-fluid"
                 src="./images/icons/ICON1.png"
-                alt="infygain logo"
+                alt="infygain logo"title='Our Value'
               ></img></div>
 
               <h2 className="mids-titles-isp">Our Value</h2>

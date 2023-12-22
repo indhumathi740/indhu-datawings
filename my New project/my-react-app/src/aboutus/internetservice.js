@@ -49,7 +49,8 @@ function Firstsection() {
                         </div>
                     </div>
                     <div className='col-lg-6  bocximages' data-aos="zoom-in-right" data-aos-duration="2000">
-                        <img src="/images/banner/woman-using-laptop.jpg" alt="service icons" className=' img-fluid experience'></img>
+                        <img src="/images/banner/woman-using-laptop.jpg" alt="service icons" className=' img-fluid experience'
+                        title='women using laptop'></img>
                     </div>                </div>
             </div>
             
