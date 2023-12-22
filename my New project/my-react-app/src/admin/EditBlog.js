@@ -240,7 +240,8 @@ const EditBlog = () => {
                   <img
                     className="img-fluid blogImg"
                     src={"uploads/" + values.img}
-                  ></img>
+                    alt="blogs"
+                    title="blogs"></img>
                 </div>
                 <div className="col">
                   <input

@@ -27,7 +27,7 @@ function Servbelowcontsabout() {
                         </div> 
                     </div>
                     <div className='col-md-6  bocximage' data-aos="zoom-in-right" data-aos-duration="2000">
-                        <img src="/images/banner/EXP BANNER.png" alt="service icons" className=' img-fluid experience'></img>
+                        <img src="/images/banner/EXP BANNER.png" alt="service icons" className=' img-fluid experience'title='service icons'></img>
                     </div>
                 </div>
             </div>

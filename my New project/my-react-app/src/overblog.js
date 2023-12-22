@@ -57,7 +57,7 @@ function OverBlogs() {
 
             <div className='overallpique'>
                 <div className='innerpiques'>
-                    <img src={"../uploads/"+ blogs.img} className='image-fluid dataimg' />
+                    <img src={"../uploads/"+ blogs.img} className='image-fluid dataimg'alt='blogs'title='blogs' />
                     <div className='valuamount'>
                     <p className='blog-inn-cons'>{blogDate}</p>
 

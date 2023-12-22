@@ -19,7 +19,7 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 1 copy.jpg">
+                                            src="../images/banner/Group 1 copy.jpg"alt='BASIC PACKAGE'title='BASIC PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -48,7 +48,7 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 2 copy.jpg">
+                                            src="../images/banner/Group 2 copy.jpg"alt='PREMIUM PACKAGE'title='PREMIUM PACKAGE'>
                                         </img></div>
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
@@ -77,7 +77,7 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 3 copy.jpg">
+                                            src="../images/banner/Group 3 copy.jpg"alt='HYPE PACKAGE'title='HYPE PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>
                                         <p className="midess-title">

@@ -29,7 +29,7 @@ function Thirdbanner() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 1 copy.jpg">
+                                            src="../images/banner/Group 1 copy.jpg"alt='basick package'title='basick package'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -58,7 +58,7 @@ function Thirdbanner() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 2 copy.jpg">
+                                            src="../images/banner/Group 2 copy.jpg"alt='PREMIUM PACKAGE'title='PREMIUM PACKAGE'>
                                         </img></div>
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
@@ -86,7 +86,7 @@ function Thirdbanner() {
                                 <div className="servicebox col-lg-4" data-aos="fade-left" data-aos-duration="2000">
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
-                                            className="img-fluid"
+                                            className="img-fluid"alt='HYPE PACKAGE'title='HYPE PACKAGE'
                                             src="../images/banner/Group 3 copy.jpg">
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>

@@ -38,7 +38,7 @@ const DwBlogs = () => {
         {blogs.map((value, index) => (
           <div className='dw-blogs1'>
 
-            <img src={"../uploads/" + value.img} alt='' />
+            <img src={"../uploads/" + value.img} alt='blogs'title='blogs' />
             <div className='dw-blogs2'>
               <span>Insight</span>
             </div>
