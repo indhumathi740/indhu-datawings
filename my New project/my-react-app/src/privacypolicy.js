@@ -12,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footerpriv from './privacy/privacy';
 import './css/footerpage.css';
+import CommonHelmet from './components/commonHelmet';
 
 function Footerprivacypage() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function Footerprivacypage() {
     <>
       {/* <Header/> */}
       <div className='ispmainservice'>
+        <CommonHelmet />
         <Header />
         
         

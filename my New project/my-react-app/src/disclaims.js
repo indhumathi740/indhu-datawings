@@ -12,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './css/footerpage.css';
 import Disclaimer from './privacy/disclaimer';
+import CommonHelmet from './components/commonHelmet';
 
 function Dispage() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function Dispage() {
     <>
       {/* <Header/> */}
       <div className='ispmainservice'>
+        <CommonHelmet />
         <Header />
         
         

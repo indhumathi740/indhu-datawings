@@ -10,7 +10,7 @@ function Servicesabout() {
             <div className="serviceContentss">
               <div className='des'> <img
                 className="img-fluid"
-                src="./images/icons/ICON3.png"
+                src="./images/icons/vision.webp"
                 alt="infygain logo"
               ></img></div>
 
@@ -24,7 +24,7 @@ function Servicesabout() {
             <div className="serviceContentss">
             <div className='des'><img
                 className="img-fluid"
-                src="./images/icons/ICON2.png"
+                src="./images/icons/mission.webp"
                 alt="infygain logo"
               ></img></div>
 
@@ -38,7 +38,7 @@ function Servicesabout() {
             <div className="serviceContentss">
             <div className='des'><img
                 className="img-fluid"
-                src="./images/icons/ICON1.png"
+                src="./images/icons/value.webp"
                 alt="infygain logo"
               ></img></div>
 

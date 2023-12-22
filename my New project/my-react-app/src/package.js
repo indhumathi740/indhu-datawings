@@ -11,6 +11,7 @@ import Packagequestions from './packages/packages questions';
 import MyPackages from './MyPackages';
 import Bannerblog from './blogs/blogbanner';
 import Bannerpac from './packages/ban-loc-pac';
+import CommonHelmet from './components/commonHelmet';
 
 function Packages() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function Packages() {
     <>
       {/* <Header/> */}
       <div className='ispmainservice'>
+        <CommonHelmet />
         <Header />
         <Bannerpac />
         <MyPackages/>

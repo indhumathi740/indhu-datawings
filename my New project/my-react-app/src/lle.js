@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Bannerlle from './packages/lbanner';
 import SMElles from './packages/smelle';
+import CommonHelmet from './components/commonHelmet';
 
 
 
@@ -22,6 +23,7 @@ function Packageslles() {
     <>
       {/* <Header/> */}
       <div className='ispmainservice'>
+        <CommonHelmet />
       <Header />
 <Bannerlle />
 <SMElles />

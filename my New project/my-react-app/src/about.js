@@ -9,12 +9,14 @@ import Banners from './ispservice/banner';
 import Smallbox from './ispservice/smallbox';
 import Footer from './common/footer';
 import Servicetestimonial from './service/testimonial';
+import CommonHelmet from './components/commonHelmet';
 
 function Aboutus() {
 
     return (
         <>
             <div className='ispmainservice'>
+                <CommonHelmet />
                 <Header />
                 <Bannersabout />
                 <Servbelowcontsabout />

@@ -12,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './css/footerpage.css';
 import Terms from './privacy/terms';
+import CommonHelmet from './components/commonHelmet';
 
 function Termspage() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function Termspage() {
     <>
       {/* <Header/> */}
       <div className='ispmainservice'>
+        <CommonHelmet />
         <Header />
         
         

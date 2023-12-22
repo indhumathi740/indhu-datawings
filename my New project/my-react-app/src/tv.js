@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Bannertvs from './packages/tvbanner';
 import Tvpackage from './packages/tvpackage';
+import CommonHelmet from './components/commonHelmet';
 
 
 
@@ -23,6 +24,7 @@ function Packagestv() {
         <>
 
             <div className='ispmainservice'>
+                <CommonHelmet />
                 <Header />
                 <Bannertvs />
                 <Tvpackage />

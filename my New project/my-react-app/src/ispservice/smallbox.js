@@ -10,7 +10,7 @@ function Smallbox() {
 <div className=' ispsmallbox' data-aos="fade-up" data-aos-duration="2000">
     <div className=' row is-sma-box' data-aos="fade-up" data-aos-duration="2000">
         <div className='col-lg-3' data-aos="fade-up" data-aos-duration="2000">
-            <div className='smallimg' ><img src="../images/banner/smallbox-webp.webp" alt="Image Description" /></div>
+            <div className='smallimg' ><img src="../images/banner/contact.webp" alt="Image Description" /></div>
         </div>
         <div className='col-lg-6   commonbac' data-aos="fade-up" data-aos-duration="1000">
             <p className='smallconten'>

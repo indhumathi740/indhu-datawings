@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Bannerspackmain from './packages/main-packagebanner';
 import Mainpackage from './packages/mainpackage';
+import CommonHelmet from './components/commonHelmet';
 
 
 
@@ -23,6 +24,7 @@ function Packagesbroad() {
     <>
 
       <div className='ispmainservice'>
+        <CommonHelmet />
       <Header />
 <Bannerspackmain />
 <Mainpackage />
