@@ -24,7 +24,7 @@ function OverBlogs() {
   });
   useEffect(() => {
     axios
-      .get("https://infygain.in/api/editblog/" + id)
+      .get("https://www.datawings.co.in/api/editblog/" + id)
       .then((res) => {
         console.log(res)
         const blogData = res.data.result[0];
