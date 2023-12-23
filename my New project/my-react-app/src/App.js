@@ -53,9 +53,9 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/service" element={<Serviceispse/>} />
         <Route path="/blog" element={<DwBlog/>} />
-        <Route path="/main" element={<Packagesbroad/>} />
-        <Route path="/sme" element={<Packagessmes/>} />
-        <Route path="/lle" element={<Packageslles/>} />
+        <Route path="/Businessbroadband" element={<Packagesbroad/>} />
+        <Route path="/SMEinternet" element={<Packagessmes/>} />
+        <Route path="/InternetLeasedLine" element={<Packageslles/>} />
         <Route path="/tv" element={<Packagestv/>} />
         <Route path="/mainblog/:id"  element={<OverBlogs/>} />
         <Route path="/privs" element={<Footerprivacypage/>} />

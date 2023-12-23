@@ -11,10 +11,11 @@ function Servicesabout() {
               <div className='des'> <img
                 className="img-fluid"
 
-                src="./images/icons/vision.webp"
+                src="./images/icons/ICON1.webp"
 
                 
-                alt="infygain logo"
+                alt="Vision"
+                title='Vision'
               ></img></div>
 
               <h2 className="mids-titles-isp">Our Vision</h2>
@@ -28,8 +29,10 @@ function Servicesabout() {
             <div className='des'><img
                 className="img-fluid"
 
-                src="./images/icons/mission.webp"
-                alt="infygain logo"
+                src="./images/icons/ICON2.webp"
+                alt="Mission"
+                title='Mission'
+
 
                 
               ></img></div>
@@ -45,8 +48,9 @@ function Servicesabout() {
             <div className='des'><img
                 className="img-fluid"
 
-                src="./images/icons/value.webp"
-                alt="infygain logo"
+                src="./images/icons/ICON3.webp"
+                alt=" Value"
+                title=' Value'
 
            
               ></img></div>

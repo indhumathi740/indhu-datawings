@@ -22,7 +22,7 @@ function Tvpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 1 copy.jpg"alt='BASIC PACKAGE'title='BASIC PACKAGE'>
+                                            src="../images/banner/Group-1.webp"alt='BASIC PACKAGE'title='BASIC PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -53,7 +53,7 @@ function Tvpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 2 copy.jpg"alt='PREMIUM PACKAGE'title='PREMIUM PACKAGE'>
+                                            src="../images/banner/Group-2.webp"alt='PREMIUM PACKAGE'title='PREMIUM PACKAGE'>
                                         </img></div>
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
@@ -84,7 +84,7 @@ function Tvpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 3 copy.jpg"alt='HYPE PACKAGE'title='HYPE PACKAGE'>
+                                            src="../images/banner/Group-3.webp"alt='HYPE PACKAGE'title='HYPE PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>
                                         <p className="midess-title">
@@ -123,7 +123,7 @@ function Tvpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 1 copy.jpg"alt='BASIC PACKAGE'title='BASIC PACKAGE'>
+                                            src="../images/banner/Group-1.webp"alt='BASIC PACKAGE'title='BASIC PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -154,7 +154,7 @@ function Tvpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 2 copy.jpg"alt='PREMIUM PACKAGE'title='PREMIUM PACKAGE'>
+                                            src="../images/banner/Group-2.webp"alt='PREMIUM PACKAGE'title='PREMIUM PACKAGE'>
                                         </img></div>
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
@@ -185,7 +185,7 @@ function Tvpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 3 copy.jpg"alt='HYPE PACKAGE'title='HYPE PACKAGE'>
+                                            src="../images/banner/Group-3.webp"alt='HYPE PACKAGE'title='HYPE PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>
                                         <p className="midess-title">

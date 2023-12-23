@@ -11,7 +11,7 @@ function Smallbox() {
     <div className=' row is-sma-box' data-aos="fade-up" data-aos-duration="2000">
         <div className='col-lg-3' data-aos="fade-up" data-aos-duration="2000">
 
-            <div className='smallimg' ><img src="../images/banner/contact.webp" alt="Image Description" /></div>
+            <div className='smallimg' ><img src="../images/banner/contact.webp" alt="unlimited internet access" title='unlimited internet access' /></div>
 
             
         </div>

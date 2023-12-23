@@ -29,7 +29,7 @@ function Servbelowcontsabout() {
                     </div>
                     <div className='col-md-6  bocximage' data-aos="zoom-in-right" data-aos-duration="2000">
 
-                        <img src="/images/banner/experience-banner.webp" alt="service icons" className=' img-fluid experience'></img>
+                        <img src="/images/banner/experience-banner.webp" alt="15+ years of experience" title='15+ years of experience' className=' img-fluid experience'></img>
 
                        
                     </div>

@@ -91,7 +91,7 @@ function Forms() {
                                 <div className='rigonebox' >
                                     <div className='col-md-2 icon-isp-about' >
 
-                                        <img src="/images/banner/location.webp" alt="service icons" className='  fa-isp'></img>                                 </div>
+                                        <img src="/images/banner/location.webp" alt="location" title="location" className='  fa-isp'></img>                                 </div>
 
                                        
                                     <div className='col-md-10 icon-isp-about-con'>
@@ -107,7 +107,7 @@ function Forms() {
                             <div className='row second'>
                                 <div className='rigonebox'>
                                     <div className='col-md-2 icon-isp-about'>
-                                        <img src="/images/banner/message.webp" alt="service icons" className='  fa-isp'></img>                                </div>
+                                        <img src="/images/banner/message.webp" alt="Email" title='Email' className='  fa-isp'></img>                                </div>
                                     <div className='col-md-10 icon-isp-about-con'>
                                         <p className='rigtitletwo'><b>Email us</b></p>
                                         <p className='text-muted rigpara'>Sales :  info@datawings.co.in<br></br>Support : support@datawings.co.in
@@ -120,7 +120,7 @@ function Forms() {
                                 <div className='rigonebox'>
                                     <div className='col-md-2 icon-isp-about'>
 
-                                        <img src="/images/banner/phone.webp" alt="service icons" className='fa-isp'></img>                                </div>
+                                        <img src="/images/banner/phone.webp" alt="Contact" title="Contact" className='fa-isp'></img>                                </div>
 
                                       
                                     <div className='col-md-10 pho-ic-tit'>

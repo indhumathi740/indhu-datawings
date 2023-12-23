@@ -16,7 +16,7 @@ function Services() {
               <p className="text-muted box-conin">
                 Our Internet Leased Line service provides high-speed, dedicated Internet connectivity to ensure your business stays connected 24/7.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><Link to='/lle'>
+              <div className='buttons'><Link to='/InternetLeasedLine'>
           <button className='btns-greenbox'>View Details</button>
         </Link></div>
             </div>
@@ -29,7 +29,7 @@ function Services() {
               <p className="text-muted box-conin">
                 Tailored connectivity solutions for small and medium-sized enterprises, designed to boost productivity and efficiency.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><Link to='/sme'>
+              <div className='buttons'><Link to='/SMEinternet'>
           <button className='btns-greenbox'>View Details</button>
         </Link></div>
 
@@ -43,7 +43,7 @@ function Services() {
               <p className="text-muted box-conin">
                 Reliable broadband solutions that deliver consistent, high-speed Internet access for your business needs.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><Link to='/main'>
+              <div className='buttons'><Link to='/Businessbroadband'>
           <button className='btns-greenbox'>View Details</button>
         </Link></div>
 

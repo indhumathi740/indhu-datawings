@@ -20,7 +20,7 @@ function Firstsection() {
                     </div>
                     <div className='col-lg-3 center-img'>
 
-                        <div className='' ><img src="../images/banner/ispimage.webp" alt="Image Description" class="ispimage" />
+                        <div className='' ><img src="../images/banner/ispimage.webp" alt="10x faster than the current standard of WiFi." title='10x faster than the current standard of WiFi.' class="ispimage" />
 
                         
                         </div>

@@ -25,6 +25,8 @@ function Blogsection() {
                                 <div className="img-Box">
                                     <img
                                         className="img-fluid img-zoom"
+                                        alt='Proven Reliability'
+                                        title='99% Proven Reliability'
 
                                         src="/images/provenreliability.webp"
 
@@ -48,6 +50,8 @@ function Blogsection() {
                                 <div className="img-Box">
                                     <img
                                         className="img-fluid"
+                                        alt='Parental Control'
+                                        title='Parental Control'
 
                                         src="/images/OC_KI_08-web.webp"
 
@@ -72,6 +76,8 @@ function Blogsection() {
                                 <div className="img-Box">
                                     <img
                                         className="img-fluid"
+                                        alt='24/7 Premium Support'
+                                        title='24/7 Premium Support'
 
                                         src="/images/premiumsupport.webp"
 
