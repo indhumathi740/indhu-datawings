@@ -30,7 +30,7 @@ function Forms() {
       
       const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post("http://localhost:5000/api/contact", values)
+        axios.post("http://www.datawings.co.in/api/contact", values)
 
             .then((res) => {
                 if(res.data.info){

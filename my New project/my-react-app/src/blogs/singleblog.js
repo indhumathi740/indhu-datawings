@@ -8,7 +8,7 @@ const DwBlogs = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    axios.get("https://infygain.in/api/blogdata").then((res) => {
+    axios.get("https://www.datawings.co.in/api/blogdata").then((res) => {
       setBlogs(res.data);
 
     });

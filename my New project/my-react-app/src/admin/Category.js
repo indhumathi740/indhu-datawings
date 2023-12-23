@@ -45,10 +45,10 @@ const Category = () => {
   const handleDelete = (id) => {
     const confirmDelete = window.confirm("Are you sure?");
     if (confirmDelete) {
-      axios.delete(`https://infygain.in/api/catdelete/${id}`)
+      axios.delete(`https://www.datawings.co.in/api/catdelete/${id}`)
         .then((res) => {
           alert("Deleted Successfully 😥");
-          axios.get("https://infygain.in/api/catdata")
+          axios.get("https://www.datawings.co.in/api/catdata")
           .then((res) => {
             setCategories(res.data);
           })
@@ -82,7 +82,7 @@ const Category = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    axios.get("https://infygain.in/api/catdata").then((res) => {
+    axios.get("https://www.datawings.co.in/api/catdata").then((res) => {
       setCategories(res.data);
     });
   }, []);

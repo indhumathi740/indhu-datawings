@@ -26,7 +26,7 @@ const Login = () => {
     setErrors(Validation(values));
     if (errors.username === "" && errors.password === "") {
       axios
-        .post("https://infygain.in/api/login", values)
+        .post("https://www.datawings.co.in/api/login", values)
         .then((res) => {
           navigate("/dashboard");
         })

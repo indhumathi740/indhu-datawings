@@ -20,7 +20,7 @@ const EditCategory = () => {
 
   useEffect(() => {
     axios
-      .get("https://infygain.in/api/editcat/"+ id)
+      .get("https://www.datawings.co.in/api/editcat/"+ id)
       .then((res) => {
         const catData = res.data.result[0];
         setValues({
@@ -48,7 +48,7 @@ const EditCategory = () => {
       setShow(true);
     } else {
       axios
-        .post("https://infygain.in/api/catupdate", values)
+        .post("https://www.datawings.co.in/api/catupdate", values)
         .then((res) => {
           setErrors(res.data.res);
           setShowMsg(true);
