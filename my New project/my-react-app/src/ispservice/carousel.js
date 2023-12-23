@@ -49,7 +49,7 @@ function Carousel() {
     const logos = partnerLogos.map((item, index) => (
         <div key={index} className="logo-box">
             <img src={item} alt={`Logo ${index}`}
-             style={{color:"red",backgroundColor:""}} />
+             style={{color:"red",backgroundColor:""}}title="partners" />
         </div>
     ));
 

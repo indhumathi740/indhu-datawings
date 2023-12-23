@@ -49,7 +49,10 @@ function Firstsection() {
                         </div>
                     </div>
                     <div className='col-lg-6  bocximages' data-aos="zoom-in-right" data-aos-duration="2000">
+
                         <img src="/images/banner/testimonial.webp" alt="service icons" className=' img-fluid experience'></img>
+
+                       
                     </div>                </div>
             </div>
             

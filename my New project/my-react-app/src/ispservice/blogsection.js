@@ -25,7 +25,10 @@ function Blogsection() {
                                 <div className="img-Box">
                                     <img
                                         className="img-fluid img-zoom"
+
                                         src="/images/provenreliability.webp"
+
+                                    
                                     ></img>
                                 </div>
 
@@ -45,7 +48,10 @@ function Blogsection() {
                                 <div className="img-Box">
                                     <img
                                         className="img-fluid"
+
                                         src="/images/OC_KI_08-web.webp"
+
+                                        
                                     ></img>
                                 </div>
 
@@ -66,7 +72,10 @@ function Blogsection() {
                                 <div className="img-Box">
                                     <img
                                         className="img-fluid"
+
                                         src="/images/premiumsupport.webp"
+
+                                  
                                     ></img>
                                 </div>
 

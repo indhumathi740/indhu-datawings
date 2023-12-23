@@ -90,7 +90,10 @@ function Forms() {
                                 <p className='text-muted'>Feel free to reach out to us with any questions or concerns</p>
                                 <div className='rigonebox' >
                                     <div className='col-md-2 icon-isp-about' >
+
                                         <img src="/images/banner/location.webp" alt="service icons" className='  fa-isp'></img>                                 </div>
+
+                                       
                                     <div className='col-md-10 icon-isp-about-con'>
 
                                         <p className='rigtitle'><b>Head office</b></p>
@@ -116,7 +119,10 @@ function Forms() {
                             <div className='row third'>
                                 <div className='rigonebox'>
                                     <div className='col-md-2 icon-isp-about'>
+
                                         <img src="/images/banner/phone.webp" alt="service icons" className='fa-isp'></img>                                </div>
+
+                                      
                                     <div className='col-md-10 pho-ic-tit'>
                                         <p className='rigtitle'><b>
                                             Contact us</b></p>

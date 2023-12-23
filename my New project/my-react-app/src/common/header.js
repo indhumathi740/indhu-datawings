@@ -113,8 +113,11 @@ function header() {
             <div className="logoo-box">
               <img
                 className=" datawings-logo"
+
                 src="./images/icons/datawings-logo.webp"
                 alt="infygain logo"
+
+               
               ></img>
             </div>
             <div className="menu-box">
