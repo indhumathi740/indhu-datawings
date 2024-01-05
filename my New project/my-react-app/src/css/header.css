@@ -185,10 +185,23 @@ margin-bottom: 10px;
  .drop-show{
     top: 130px;
  }
-@media (width<=767px){
+@media (width<=1197px){
     .drop-show{
         top: 100px;
      }
+     .dropDownMenu{
+        display: flex;
+        justify-content: end;
+        flex-basis: 70%;
+        font-size: 30px;
+       }
+     .menu-box{
+        display: none;
+       }
+       .top-head{
+        display: none !important;
+        border: 2px solid red;
+       }
 }
  .socialicons{
     display: flex;
