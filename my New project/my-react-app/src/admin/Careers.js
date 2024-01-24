@@ -1,15 +1,14 @@
 import "../css/admin.css";
 import Sidebars from "./sidebar";
-import { Link, json } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { BiSolidCommentEdit } from "react-icons/bi";
 import { MdDeleteForever } from "react-icons/md";
-import { useNavigate } from "react-router-dom";
 import DataTable from "react-data-table-component";
 
-const Category = () => {
-  const navigate = useNavigate();
+const Careers = () => {
+ 
 
   const columns = [
     {
@@ -18,26 +17,40 @@ const Category = () => {
     },
     {
       name: "Name",
-      selector: (row) => row.name,
+      selector: (row) => row.title,
     },
     {
       name: "Status",
       selector: (row) => row.status,
     },
     {
+        name: "Qualification",
+        selector: (row) => row.degree,
+    },
+    {
+        name: "Experience",
+        selector: (row) => row.exp,
+    },
+//     {
+//       name: "JD",
+//       selector: (row) => row.content,
+//   },
+//   {
+//     name: "intro",
+//     selector: (row) => row.intro,
+// },
+    {
       name: "Action",
       selector: (row) => {
         return (
           <>
-          <div className="action-buttons">
-            <Link to={`/editcategory/${row.id}`} className="btn btn-warning">
+            <Link to={`/edit-career/${row.id}`} className="btn btn-warning">
               <BiSolidCommentEdit />
             </Link>
             &nbsp;&nbsp;
             <Link onClick={()=>{handleDelete(row.id)}} className="btn btn-danger">
               <MdDeleteForever />
             </Link>
-             </div>
           </>
         );
       },
@@ -47,12 +60,12 @@ const Category = () => {
   const handleDelete = (id) => {
     const confirmDelete = window.confirm("Are you sure?");
     if (confirmDelete) {
-      axios.delete(`https://www.datawings.co.in/api/catdelete/${id}`)
+      axios.delete(`https://infygain.com/api/cardelete/${id}`)
         .then((res) => {
           alert("Deleted Successfully 😥");
-          axios.get("https://www.datawings.co.in/api/catdata")
+          axios.get("https://infygain.com/api/career-data")
           .then((res) => {
-            setCategories(res.data);
+            setCareerData(res.data);
           })
           .catch((error) => {
             console.error("Error fetching updated data:", error);
@@ -81,41 +94,38 @@ const Category = () => {
     },
   };
 
-  const [categories, setCategories] = useState([]);
+  const [careerData, setCareerData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://www.datawings.co.in/api/catdata").then((res) => {
-      setCategories(res.data);
+    axios.get("https://infygain.com/api/career-data").then((res) => {
+      setCareerData(res.data);
     });
   }, []);
 
   return (
     <>
-    
       <div className="adminMainBox">
         <div className="sideBarBox">
           <Sidebars />
         </div>
         <div className="mainContBox p-5">
-          <h1 className="mb-5">Category</h1>
+          <h1 className="mb-5">Career</h1>
           <div className="topBtnBox d-flex justify-content-end mb-3">
             <button className="btn btn-primary">
-              <Link className="text-light" to="/AddCategory">
+              <Link className="text-light" to="/AddCareer">
                 Create
               </Link>
             </button>
           </div>
-          <div className="table-responsive">
           <DataTable
             pagination
             columns={columns}
-            data={categories}
+            data={careerData}
             customStyles={tableCustomStyles}
           />
-        </div>
         </div>
       </div>
     </>
   );
 };
-export default Category;
+export default Careers;

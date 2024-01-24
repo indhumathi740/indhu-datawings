@@ -11,7 +11,7 @@ function Forms() {
         name: "",
         phone: "",
         email:"",
-        category: "",
+        company: "",
         subject: "",
         message: ""
       });
@@ -30,7 +30,7 @@ function Forms() {
       
       const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post("http://www.datawings.co.in/api/contact", values)
+        axios.post("https://www.datawings.co.in/api/contact", values)
 
             .then((res) => {
                 if(res.data.info){
@@ -38,7 +38,7 @@ function Forms() {
                         name: "",
                         phone: "",
                         email:"",
-                        category: "",
+                        company: "",
                         subject: "",
                         message: ""
                       });

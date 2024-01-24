@@ -40,9 +40,9 @@ const Sidebars = () => {
     <>
       <Sidebar className="sideBar" collapsed={collapse}>
         <div className="logoBox">
-          <img src="/images/icons/infylogo.svg"></img>
+          <img src="/images/icons/datawings-logo.webp" className="mt-4" ></img>
         </div>
-        <Menu className="menuBox" menuItemStyles={sideStyle}>
+        <Menu className="menuBox pt-4" menuItemStyles={sideStyle}>
           <MenuItem
             icon={<MdSpaceDashboard />}
             component={<Link to="/dashboard" />}
@@ -53,6 +53,17 @@ const Sidebars = () => {
             <MenuItem icon={<BiSolidCategory />} component={<Link to="/category" />}> Category </MenuItem>
             <MenuItem icon={<FaBlogger />} component={<Link to="/adminblog" />}> Blog</MenuItem>
           </SubMenu>
+        
+          {/* <MenuItem icon={<BiSolidCategory />} component={<Link to="/Careers" />}> Career </MenuItem>
+          <MenuItem icon={<BiSolidCategory />} component={<Link to="/candidate" />}> Candidate </MenuItem>
+
+          <MenuItem icon={<BiSolidCategory />} component={<Link to="/Partners" />}> Partner </MenuItem> */}
+
+          {/* <SubMenu icon={<FaBlogger />} label="Partner">
+            <MenuItem icon={<BiSolidCategory />} component={<Link to="/Work" />}> Work </MenuItem>
+            <MenuItem icon={<FaBlogger />} component={<Link to="/Business" />}> Business</MenuItem>
+          </SubMenu> */}
+        
         </Menu>
         <div className="bottomBox p-1">
           <Link to="/admin" className="btn w-100 btn-danger">Logout</Link>
