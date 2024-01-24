@@ -57,13 +57,15 @@ function OverBlogs() {
 
             <div className='overallpique'>
                 <div className='innerpiques'>
-                    <img src={"../uploads/"+ blogs.img} className='image-fluid dataimg'alt='blogs'title='blogs' />
+                    <img
+                     src={"../uploads/"+ blogs.img}  
+                     className='image-fluid dataimg'alt='blogs'title='blogs' />
                     <div className='valuamount'>
                     <p className='blog-inn-cons'>{blogDate}</p>
 
                         <p className=' blog-inn-cons'>  {blogs.title}</p>
                         
-                        <p className='text-muted details-blog-contents'>    {stripHTMLTags(blogs.content)}  </p>
+                        <p className='text-muted details-blog-contents' dangerouslySetInnerHTML={{ __html: blogs.content }}></p>
                     </div>
                     {/* <div className='buttongroupin'>
                     <div className='buttonque'><img src="/images/facebook.png" className='blogmail image-fluid'></img>

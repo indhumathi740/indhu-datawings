@@ -120,7 +120,7 @@ const EditBlog = () => {
       formData.append("intro", values.intro);
 
       axios
-        .post("https://infygain.com/api/updateblog", formData)
+        .post("https://www.datawings.co.in/api/updateblog", formData)
         .then((res) => {
           document.querySelector(".form").reset();
           setErrors("Blog Updated Successfully 😊😊");

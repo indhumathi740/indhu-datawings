@@ -9,6 +9,9 @@ padding: 100px;
 background-position: center center;
 background-size: cover;
 }
+a{
+    text-decoration: none;
+}
 .head-isp-about{
     font-size: 35px;
     font-weight: 700;

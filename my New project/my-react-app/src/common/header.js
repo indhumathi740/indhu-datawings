@@ -114,7 +114,7 @@ function header() {
               <img
                 className="datawings-logo"
 
-                src="./images/icons/datawings-logo.webp"
+                src="/images/icons/datawings-logo.webp"
                 alt="datawings logo"
                 title="Datawings logo"
 
