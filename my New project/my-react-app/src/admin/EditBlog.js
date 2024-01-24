@@ -4,18 +4,41 @@ import "../css/admin.css";
 import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "froala-editor/css/froala_style.min.css";
 import "froala-editor/css/froala_editor.pkgd.min.css";
 import 'froala-editor/js/froala_editor.pkgd.min.js';
-
-import FroalaEditor from "react-froala-wysiwyg";
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 
 const EditBlog = () => {
   const [categories, setCategories] = useState([]);
   const [errors, setErrors] = useState("");
   const [show, setShow] = useState(false);
   const [showMsg, setShowMsg] = useState(false);
+
+  const modules = {
+    
+    toolbar: [
+      // Define other toolbar options as needed
+      [{ 'header': '1'}, {'header': '2'}, { 'font': [] }],
+      [ { 'header': [ 3, 4, 5, 6] },],
+      [{size: []}],
+      ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+      [{'list': 'ordered'}, {'list': 'bullet'}, 
+       {'indent': '-1'}, {'indent': '+1'}],
+      ['link', 'image', 'video'],
+      ['clean']
+    ]
+  };
+
+  const formats = [
+    'header', 'header', 'font', 'size',
+    'bold', 'italic', 'underline', 'strike', 'blockquote',
+    'list', 'bullet', 'indent',
+    'link', 'image', 'video'
+  ];
+
 
   useEffect(() => {
     axios
@@ -39,14 +62,13 @@ const EditBlog = () => {
     content: "",
     img: "",
     status: "Active",
+    intro: "",
   });
   useEffect(() => {
     axios
       .get("https://www.datawings.co.in/api/editblog/" + id)
       .then((res) => {
         const blogData = res.data.result[0];
-        console.log(blogData);
-        console.log(blogData.title);
         setValues({
           ...values,
           id: blogData.id,
@@ -58,6 +80,7 @@ const EditBlog = () => {
           metakey: blogData.metakey,
           img: blogData.img,
           status: blogData.status,
+          intro:blogData.intro,
         });
       })
       .catch((err) => {
@@ -94,9 +117,10 @@ const EditBlog = () => {
       formData.append("metakey", values.metakey);
       formData.append("content", values.content);
       formData.append("status", values.status);
+      formData.append("intro", values.intro);
 
       axios
-        .post("https://www.datawings.co.in/api/updateblog", formData)
+        .post("https://infygain.com/api/updateblog", formData)
         .then((res) => {
           document.querySelector(".form").reset();
           setErrors("Blog Updated Successfully 😊😊");
@@ -108,7 +132,6 @@ const EditBlog = () => {
         });
     
   };
-
   function alertBox() {
     if (show) {
       return (
@@ -127,6 +150,8 @@ const EditBlog = () => {
       );
     }
   }
+
+
 
   return (
     <>
@@ -213,11 +238,23 @@ const EditBlog = () => {
                 </div>
               </div>
 
+              <div className="row mb-3">
+                <div className="col">
+                  <textarea
+                    className="form-control"
+                    name="intro"
+                    placeholder="intro"
+                    value={values.intro}
+                    onChange={handleInput}
+                  ></textarea>
+                </div>
+              </div>
+
               {/* Row 4 */}
               <div className="row mb-3">
                 <div className="col">
                   <div id="editor">
-                    <FroalaEditor
+                    {/* <FroalaEditor
                       config={{
                         placeholderText: "Content Here!",
                       }}
@@ -230,7 +267,19 @@ const EditBlog = () => {
                           target: { name: "content", value: content },
                         })
                       }
-                    />
+                    /> */}
+                    <ReactQuill
+                 theme="snow"
+                 value={values.content}
+                 onChange={(content) =>
+                   handleInput({
+                    target: { name: "content", value: content },
+                })
+                }
+              placeholder={"Write something awesome..."}
+              modules={modules}
+                  formats={formats}
+              />
                   </div>
                 </div>
               </div>
@@ -241,7 +290,7 @@ const EditBlog = () => {
                     className="img-fluid blogImg"
                     src={"uploads/" + values.img}
                     alt="blogs"
-                    title="blogs"></img>
+                  ></img>
                 </div>
                 <div className="col">
                   <input

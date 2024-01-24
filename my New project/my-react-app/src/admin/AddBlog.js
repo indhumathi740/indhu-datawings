@@ -1,17 +1,19 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../css/admin.css";
 import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
-import "froala-editor/css/froala_style.min.css";
-import "froala-editor/css/froala_editor.pkgd.min.css";
-import FroalaEditor from "react-froala-wysiwyg";
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css'; // Quill styles
+
 
 const AddBlog = () => {
   const [categories, setCategories] = useState([]);
   const [errors, setErrors] = useState("");
   const [show, setShow] = useState(false);
   const [showMsg, setShowMsg] = useState(false);
+
+
 
   // ! Get Category Data
   useEffect(() => {
@@ -33,7 +35,14 @@ const AddBlog = () => {
     content: "",
     img: "",
     status: "Active",
+    intro:"",
   });
+
+
+
+
+
+
 
   const handleInput = (e) => {
     setValues((prev) => ({
@@ -55,7 +64,12 @@ const AddBlog = () => {
     if (values.title === "") {
       setErrors("Title Must Be Filled 🤔");
       setShow(true);
-    } else {
+    }
+    // else if(values.intro[0].length > 125){
+    //   setErrors("Intro should be max 125 char's");
+    //   setShow(true);
+    // }
+     else {
       const formData = new FormData();
       formData.append("file", file);
       formData.append("title", values.title);
@@ -65,6 +79,7 @@ const AddBlog = () => {
       formData.append("metakey", values.metakey);
       formData.append("content", values.content);
       formData.append("status", values.status);
+      formData.append("intro", values.intro);
 
       axios
         .post("https://www.datawings.co.in/api/addblog", formData)
@@ -72,8 +87,21 @@ const AddBlog = () => {
           document.querySelector(".form").reset();
           setErrors("Blog Added Successfully 😊😊");
           setShowMsg(true);
+          setValues({
+            title: "",
+            category: "Other",
+            quote: "",
+            metades: "",
+            metakey: "",
+            content: "",
+            img: "",
+            status: "Active",
+            intro:"",
+          })
         })
         .catch((err) => {
+          console.log(formData)
+          console.log(err.message)
           console.log("helloooo" + err);
           setErrors("Something Wrong Pls Try again Later 😥");
           // setErrors(err);
@@ -92,6 +120,7 @@ const AddBlog = () => {
     }
   }
 
+
   function msgBox() {
     if (showMsg) {
       return (
@@ -101,6 +130,29 @@ const AddBlog = () => {
       );
     }
   }
+  const modules = {
+    
+    toolbar: [
+      // Define other toolbar options as needed
+      [{ 'header': '1'}, {'header': '2'}, { 'font': [] }],
+      [ { 'header': [ 3, 4, 5, 6] },],
+      [{size: []}],
+      ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+      [{'list': 'ordered'}, {'list': 'bullet'}, 
+       {'indent': '-1'}, {'indent': '+1'}],
+      ['link', 'image', 'video'],
+      ['clean']
+    ]
+  };
+
+
+  const formats = [
+    'header','header', 'font', 'size',
+    'bold', 'italic', 'underline', 'strike', 'blockquote',
+    'list', 'bullet', 'indent',
+    'link', 'image', 'video'
+  ];
+
 
   return (
     <>
@@ -180,11 +232,22 @@ const AddBlog = () => {
                   ></textarea>
                 </div>
               </div>
+              {/* 5 */}
+              <div className="row mb-3">
+                <div className="col">
+                  <textarea
+                    className="form-control"
+                    name="intro"
+                    placeholder="intro"
+                    onChange={handleInput}
+                  ></textarea>
+                </div>
+              </div>
 
               {/* Row 4 */}
               <div className="row mb-3">
                 <div className="col">
-                  <FroalaEditor
+                  {/* <FroalaEditor
                     tag="textarea"
                     name="content"
                     value={values.content}
@@ -193,7 +256,20 @@ const AddBlog = () => {
                         target: { name: "content", value: content },
                       })
                     }
-                  />
+                  /> */}
+                     <ReactQuill
+                    theme="snow"
+                    value={values.content}
+                   onChange={(content) =>
+                   handleInput({
+                    target: { name: "content", value: content },
+                 })
+                }
+                  placeholder={"Write something awesome..."}
+                  modules={modules}
+                  formats={formats}
+              />
+                  
                 </div>
               </div>
               {/* Row 5 */}
