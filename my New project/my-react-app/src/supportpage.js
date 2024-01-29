@@ -13,7 +13,6 @@ import 'aos/dist/aos.css';
 import Footerpriv from './privacy/privacy';
 import './css/footerpage.css';
 import Supports from './privacy/support';
-import CommonHelmet from './components/commonHelmet';
 
 function Suppopage() {
   useEffect(() => {
@@ -26,7 +25,6 @@ function Suppopage() {
     <>
       {/* <Header/> */}
       <div className='ispmainservice'>
-        <CommonHelmet />
         <Header />
         
         

@@ -22,9 +22,16 @@ function Packages() {
   }, []);
   return (
     <>
+     <CommonHelmet
+     pageTitle="best Wi-Fi service provider in Coimbatore"
+     pageDescription="Experience best Wi-Fi solutions in Coimbatore with ISP services. Enjoy 
+     wireless internet for home, best high-speed Wi-Fi, both wired and wireless
+     "
+     pageKeywords=" wireless internet for home, best Wi-Fi provider,ISP services, WIFI plans, high speed 
+     Wi-Fi"
+     />
       {/* <Header/> */}
       <div className='ispmainservice'>
-        <CommonHelmet />
         <Header />
         <Bannerpac />
         <MyPackages/>

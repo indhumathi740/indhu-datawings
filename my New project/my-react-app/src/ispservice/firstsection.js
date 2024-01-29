@@ -13,7 +13,7 @@ function Firstsection() {
                         <div className='leftsidecontent'>
                             <div className='securebutton'><button className='btns-green another'>secure connection</button><br></br></div>
                             <h1 className='content'>10x faster than the current standard of WiFi.</h1>
-                            <p className='text-muted parafirsec'>Experience the future of connectivity with our WiFi service, 10x faster than the current standard. Elevate your digital experience today with Datawings <br></br>Teleinfra.
+                            <p className='text-muted parafirsec'>Experience the future of connectivity with our WiFi service, 10x faster than the current standard. Enhance your digital experience today with Datawings Teleinfra, providing the best internet solutions.
                             </p>
                             <div className='getbutton'><Link to="/packages"><button className='btns-green '>get started</button></Link></div>
                         </div>

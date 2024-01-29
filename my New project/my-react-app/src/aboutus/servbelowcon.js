@@ -16,13 +16,17 @@ function Servbelowcontsabout() {
                             <ul className='servlistlines'>
                                 <li className='firlis'><AiOutlineCheckCircle className='roundicon' />
                                     <h className='mintit'> Internet for home</h></li>
-                                <p className='text-muted servparaone'>Experience the convenience of high-speed Internet at home. Stay connected with seamless streaming, remote work capabilities, and online entertainment.</p>
+                                <p className='text-muted servparaone'>Experience the ultimate convenience of high-speed Internet connectivity at home. 
+Stay seamlessly connected with smooth streaming, remote work capabilities, and endless online entertainment possibilities.
+</p>
                                 <li><AiOutlineCheckCircle className='roundicon' />
                                     <h className='mintit'> Internet for Business</h></li>
                                 <p className='text-muted servparaone'>Power your business operations with dependable Internet connectivity. Enhance productivity, communication, and growth with tailored business solutions.</p>
                                 <li><AiOutlineCheckCircle className='roundicon' />
                                     <h className='mintit'> Internet for Educations</h></li>
-                                <p className='text-muted servparaone'>Enable effective learning and collaboration with reliable Internet services for educational institutions. Empower students and educators with quality online connectivity.</p>
+                                <p className='text-muted servparaone'>Empower effective learning and collaboration in educational institutions with our reliable Internet services. 
+Provide students and educators with quality online connectivity,Creating a supportive atmosphere to promote improved education and collaboration.
+</p>
 
                             </ul>
                         </div> 

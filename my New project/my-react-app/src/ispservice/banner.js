@@ -17,7 +17,13 @@ function Banner() {
                                 <div className=' contentsection'>
                                     <p className="maintitle" >Your World, Our Network.</p>
                                     <div className='smalline'></div>
-                                    <p className='bannercontent' data-aos="fade-up" data-aos-duration="2000">Discover lightning-fast Internet, crystal-clear Voice, and immersive IPTV entertainment with Datawings, your trusted ISP. Explore our broadband solutions, unbeatable connectivity, and competitive pricing today.</p>
+                                    <p className='bannercontent' data-aos="fade-up" data-aos-duration="2000">
+                                    Elevate your digital experience with Datawings – the undisputed "best internet service provider (ISP)." Enjoy blazing-fast Internet and immersive IPTV. Uncover unbeatable connectivity and competitive pricing today.
+
+
+
+
+</p>
 
                                 </div>
                                 <div className='lists' data-aos="fade-up" data-aos-duration="2000">

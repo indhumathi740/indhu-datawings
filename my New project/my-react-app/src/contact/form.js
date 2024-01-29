@@ -82,12 +82,14 @@ function Forms() {
                 <div className='container contact-form'>
 
                     <div className='row formrow'>
+
+                        
                   
                         <div className=' container col-lg-6 rightsidecontents' data-aos="fade-left" >
                             <div className='row overall-con'>
                                 <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>get in touch</button></div>
                                 <p className='ban-two-bel'>Let's start talking with us</p>
-                                <p className='text-muted'>Feel free to reach out to us with any questions or concerns</p>
+                                <p className='text-muted'>Feel free to reach out to us with any questions or concerns. For inquiries and contact, connect with our support team at anytime.</p>
                                 <div className='rigonebox' >
                                     <div className='col-md-2 icon-isp-about' >
 
@@ -101,6 +103,7 @@ function Forms() {
                                             KARUVALUR ANNUR<br></br> COIMBATORE
                                             TAMILNADU-641653 INDIA </p>
                                     </div>
+
                                 </div>
 
                             </div>

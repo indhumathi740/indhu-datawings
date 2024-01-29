@@ -15,9 +15,16 @@ function Aboutus() {
 
     return (
         <>
+          <CommonHelmet 
+                pageTitle="Best Network  service provider in Coimbatore"
+                pageDescription="Experience best network provider in Coimbatore with high-speed internet, 
+                Network security solution, best internet speed, Reliable internet services ."
+                pageKeywords=" network support, high speed internet, Network security solution, Reliable internet 
+                services"
+                />
             <div className='ispmainservice'>
-                <CommonHelmet />
-                <Header />
+              
+                <Header /> 
                 <Bannersabout />
                 <Servbelowcontsabout />
                 <Smallbox />

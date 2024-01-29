@@ -19,7 +19,8 @@ function Secondbanner() {
 
                                 </div>
                                 <div className='lists'>
-                                    <p className='bannercontentpara' data-aos="fade-up" data-aos-duration="1000">Experience blazing-fast internet with Datawings. Say goodbye to buffering and lag – choose your speed, connect, and enjoy the future of connectivity.</p>
+                                    <p className='bannercontentpara' data-aos="fade-up" data-aos-duration="1000">
+Experience blazing-fast internet with Datawings, your reliable wireless internet service provider. Say goodbye to buffering and lag choose your speed, connect, and enjoy the future of connectivity.</p>
                                 </div>
                                 <div className='button' data-aos="fade-up" data-aos-duration="1000"><Link to="/packages"><button className='btns-green'>get started</button></Link></div>
                             </div>
