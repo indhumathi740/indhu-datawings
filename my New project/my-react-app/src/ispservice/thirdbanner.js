@@ -16,7 +16,11 @@ function Thirdbanner() {
                                 <div className=' contentsection'>
                                     <div className='button'><button className='btns-greens-third'>choose your package</button></div>
                                     <p className="maintitlethi">Unlock the Biggest Savings Ever on Home Satellite Internet!</p>
-                                    <p className='bannercontent'>Experience unmatched savings on home satellite internet. Get connected with lightning speed.</p>
+                                    <p className='bannercontent'>Experience unmatched savings on home satellite internet. Get connected with lightning speed, all made possible by your trusted Internet Service Provider.</p>
+
+
+
+
 
                                 </div>
 

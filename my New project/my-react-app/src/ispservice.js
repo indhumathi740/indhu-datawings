@@ -32,9 +32,14 @@ function Ispservice() {
   }, []);
   return (
     <>
+    
       {/* <Header/> */}
       <div className='ispmainservice'>
-        <CommonHelmet />
+      <CommonHelmet
+     pageTitle="Best Internet service provider in Coimbatore"
+     pageDescription="Experience fast internet in Coimbatore with the best ISP. Offering high-speed internet, Wi-Fi, fiber network, and overall internet service provider ."
+     pageKeywords="high speed internet, best ISP, network marketing, best internet service, best fiber network"
+     />
         <Header />
         <Banner />
         <Firstsection />

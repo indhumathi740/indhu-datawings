@@ -22,7 +22,12 @@ function Packagessmes() {
     <>
       {/* <Header/> */}
       <div className='ispmainservice'>
-        <CommonHelmet />
+        <CommonHelmet 
+          pageTitle="Best high-speed internet provider in Coimbatore"
+          pageDescription="- Experience the high-speed internet provider in Coimbatore with wireless
+          access points, fiber optic solution, mobile router solutions,5g Wi-Fi router"
+          pageKeywords="best network coverage, mobile network services, 5g and 4g network, wireless wifi router,
+          wifi access point, 5g Wi-Fi router"/>
       <Header />
 <Bannerspacsme />
         <SMEpackage />

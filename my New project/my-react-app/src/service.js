@@ -17,7 +17,10 @@ function Serviceispse() {
     <>
 
       <div className='ispmainservice'>
-        <CommonHelmet />
+        <CommonHelmet 
+          pageTitle="Best Internet service provider in Coimbatore"
+          pageDescription="Experience superior connectivity with the best internet service provider in Coimbatore. Fast and reliable service for an unmatched online experience."
+          pageKeywords="high speed internet, best ISP, network marketing, best internet service,"/>
         <Header />
         <Bannersservice />
         <Secondbannerbelowcon />
