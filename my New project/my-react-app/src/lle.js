@@ -24,10 +24,10 @@ function Packageslles() {
       {/* <Header/> */}
       <div className='ispmainservice'>
         <CommonHelmet 
-         pageTitle="advanced network provider in Coimbatore"
-         pageDescription="- Discover advanced network provider in Coimbatore with best network
-         coverage, mobile network services, 5g network and wireless wi-fi router solutions"
-         pageKeywords="best network coverage, mobile network services, 5g and 4g network, wireless wifi router, wifi
+         pageTitle="Broadband Internet service provider in coimbatore,karur."
+         pageDescription="- Discover advanced network provider with best network
+         coverage,wireless wi-fi router solutions"
+         pageKeywords="best network coverage, wireless wifi router, wifi
          access point"
         />
       <Header />

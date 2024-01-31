@@ -25,8 +25,8 @@ function Packagesbroad() {
 
       <div className='ispmainservice'>
         <CommonHelmet 
-         pageTitle="best wireless internet provider in Coimbatore"
-         pageDescription="Discover the best wireless internet provider in Coimbatore. Explore best WiFi, wireless router, access points, and cutting-edge 5G Wi-Fi technology
+         pageTitle="best wireless internet provider in Coimbatore,karur"
+         pageDescription="Discover the best wireless internet solutions provider. Explore best WiFi, wireless router, access points, and cutting-edge 5G Wi-Fi technology
          "
          pageKeywords="high speed internet, best ISP, network marketing, best internet service,"
         />

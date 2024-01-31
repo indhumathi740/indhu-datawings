@@ -41,7 +41,7 @@ function Services() {
 
               <h2 className="mids-title">Business Broadband</h2>
               <p className="text-muted box-conin">
-                Reliable broadband solutions that deliver consistent, high-speed Internet access for your business needs.              </p>
+                Best broadband solutions that deliver consistent, high-speed Internet access for your business needs.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
               <div className='buttons'><Link to='/Businessbroadband'>
           <button className='btns-greenbox'>View Details</button>

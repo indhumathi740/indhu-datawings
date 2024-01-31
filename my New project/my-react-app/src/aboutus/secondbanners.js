@@ -15,9 +15,9 @@ function Secondbanners() {
                             <div className='col-md-7'></div>
                             <div className='col-md-5 bors' >
                                 <div className=' contentsections'>
-                                    <div className='buttons' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>promo</button></div>
+                                    <div className='buttons' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>Internet</button></div>
 
-                                    <p className='bannercontentoness' data-aos="fade-up" data-aos-duration="1000">Lightning-Fast Internet Awaits You</p>
+                                    <p className='bannercontentoness' data-aos="fade-up" data-aos-duration="1000">Internet Service Provider</p>
 
                                 </div>
                                 <div className='lists'>

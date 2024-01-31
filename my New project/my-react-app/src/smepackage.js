@@ -23,7 +23,7 @@ function Packagessmes() {
       {/* <Header/> */}
       <div className='ispmainservice'>
         <CommonHelmet 
-          pageTitle="Best high-speed internet provider in Coimbatore"
+          pageTitle="Best high-speed internet provider in Coimbatore,karur."
           pageDescription="- Experience the high-speed internet provider in Coimbatore with wireless
           access points, fiber optic solution, mobile router solutions,5g Wi-Fi router"
           pageKeywords="best network coverage, mobile network services, 5g and 4g network, wireless wifi router,

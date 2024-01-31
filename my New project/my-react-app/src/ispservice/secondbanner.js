@@ -13,7 +13,7 @@ function Secondbanner() {
                         <div className='container row'>
                             <div className='col-md-5 bor' >
                                 <div className=' contentsection'>
-                                    <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>promo</button></div>
+                                    <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>Internet</button></div>
 
                                     <p className='bannercontentone' data-aos="fade-up" data-aos-duration="1000">Experience Lightning-Fast Internet Today!</p>
 
