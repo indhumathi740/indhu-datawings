@@ -13,7 +13,7 @@ function Blogsection() {
                             <div className=' contentsection' data-aos="fade-up" data-aos-duration="2000" >
                                 <div className='button'><button className='btns-greens-third'>why choose us</button></div>
                                 <p className="maintitle-thi">Experience the pinnacle of speed with our fiber-optic internet</p>
-                                <p className='text-muted details-blog-content'>Surpass the speed limits with our fiber-optic internet experience. Elevate your connectivity to the pinnacle of speed and performance.</p>
+                                <p className='text-muted details-blog-content'>Surpass speed limits with our fiber-optic internet services, elevating your connectivity to the pinnacle of speed and performance.</p>
 
                             </div>
                         </div>
