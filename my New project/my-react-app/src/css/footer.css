@@ -569,3 +569,15 @@ box-shadow: 0 0 20px rgba(59, 233, 24, 0.5);
     padding-left: 40px;
 }
 }
+.seo-keywords{
+    margin-top: 30px;
+    font-size: 11px;
+  }
+  .text-light-color{
+    color: rgba(255, 254, 254, 0.733);
+  }
+  .Keywordstopsearch{
+    color: #fff;
+    font-size: 18px;
+font-weight: 600;
+  }
