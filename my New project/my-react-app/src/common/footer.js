@@ -3,14 +3,58 @@ import "font-awesome/css/font-awesome.css";
 import "../css/footer.css";
 import { Link } from "react-router-dom";
 import { TbArrowBigUpFilled } from "react-icons/tb";
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
 
+const linkStyle = {
+  textDecoration: 'none',
+  color: 'rgba(255, 254, 254, 0.733) ', // Set the color to white
+};
+const sentencesWithLinks = [
+  { sentence: 'best internet service provider in coimbatore', link: '/packages' },
+  { sentence: 'best internet connection and Internet provider in Coimbatore', link: '/packages' },
+  { sentence: 'best Wi-Fi service provider in Coimbatore', link: '/packages' },
+  { sentence: 'best Network service provider in Coimbatore', link: '/aboutus' },
+  { sentence: 'best high speed internet provider in Coimbatore', link: 'https://www.datawings.co.in/' },
+  { sentence: 'best broadband service provider in Coimbatore ', link: '/Businessbroadband' },
+  { sentence: 'best internet Leased Line service provider in Coimbatore', link: '/InternetLeasedLine' },
+  { sentence: 'best network security solution provider in Coimbatore', link: '/aboutus' },
+  { sentence: 'best high speed Wi-Fi service provider in Coimbatore', link: '/packages' },
+  { sentence: 'wifi connection service provider in Coimbatore', link: '/aboutus' },
+  { sentence: 'internet solutions in Coimbatore', link: '/packages' },
+  { sentence: 'internet service in Coimbatore', link: '/packages' },
+  { sentence: 'top broadband service', link: '/packages' },
+  { sentence: 'Top Internet Service Provider', link: '/packages' },
+  { sentence: 'Best Broadband Plans', link: '/packages' },
+  { sentence: 'best wifi internet plans', link: '/packages' },
+  { sentence: 'best internet broadband plans', link: '/packages' },
+  { sentence: 'Top broadband providers', link: '/packages' },
+  { sentence: 'home Wi-Fi solutions in Coimbatore', link: '/packages' },
+  { sentence: 'internet plans in coimbatore', link: '/packages' },
+  { sentence: 'Fiber-optic internet', link: '/packages' },
+  { sentence: 'best internet service provider in karur', link: '/packages' },
+  { sentence: 'best internet connection and Internet provider in karur', link: '/packages' },
+  { sentence: 'best Wi-Fi service provider in karur', link: '/packages' },
+  { sentence: 'best Network service provider in karur', link: '/aboutus' },
+  { sentence: 'best high speed internet provider in karur', link: 'https://www.datawings.co.in/' },
+  { sentence: 'best broadband service provider in karur ', link: '/Businessbroadband' },
+  { sentence: 'best internet Leased Line service provider in karur', link: '/InternetLeasedLine' },
+  { sentence: 'best network security solution provider in karur', link: '/aboutus' },
+  { sentence: 'best high speed Wi-Fi service provider in karur', link: '/packages' },
+  { sentence: 'internet solutions in karur', link: '/aboutus' },
+  { sentence: 'home Wi-Fi solutions in karur', link: '/aboutus' },
+  { sentence: 'internet plans in karur', link: '/packages' },
+  { sentence: 'Fiber-optic internet', link: '/packages' },
+  { sentence: 'Broadband Internet Service Providers in Coimbatore', link: '/packages' },
+  { sentence: 'Internet solutions Providers in Coimbatore', link: '/packages' },
+
+  // ... add more sentences and links as needed
+];
 function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <footer>
@@ -207,10 +251,25 @@ function Footer() {
                  <div className=" form-group emai-btn">
            <div className="foo-main-btn"><button className="btns-green-learnmoreanothers">Stay Connect</button></div>
                                     </div> 
+                                    
               </div>
+              <div className="seo-keywords">
+              <p className="Keywordstopsearch">TOP SEARCH KEYWORDS</p>
+
+      <p className="text-light-color">
+        {sentencesWithLinks.map((item, index) => (
+          <React.Fragment key={index}>
+            <a href={item.link} style={linkStyle}>
+              {item.sentence}
+            </a>
+            {index < sentencesWithLinks.length - 1 && <>&nbsp;|&nbsp;</>}
+          </React.Fragment>
+        ))}
+      </p>
+    </div>
             </div>
           </div>
-
+        
 
           {/* <div className="socialmediaicons">
             <p className="mini-title follow">Follow Us On</p>
@@ -272,8 +331,11 @@ function Footer() {
               </div>
             </div>
           </div> */}
+          
         </div>
+        
       </div>
+      
       <div className="topmenu" onClick={scrollToTop}>
         <svg
           className="testIcon"
