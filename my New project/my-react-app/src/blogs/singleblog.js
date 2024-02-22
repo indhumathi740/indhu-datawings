@@ -82,6 +82,7 @@ const DwBlogs = () => {
 
      
      <p className='details-blog-content'>Discover Valuable Insights on Fast & Reliable Internet in Our Blogs.</p>
+     <div className='viewallblog text-center mb-2'><Link to={"/blog"}><button >View All Blogs</button></Link></div>
      </div>
       <div className='col-md-3'></div>
       </div>

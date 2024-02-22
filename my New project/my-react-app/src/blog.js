@@ -9,6 +9,7 @@ import Footer from './common/footer';
 import Bannerblog from './blogs/blogbanner';
 import CommonHelmet from './components/commonHelmet';
 import DwmainBlogs from './mainblogs';
+import MainDwBlogs from './MainDwBlogs';
 
 
 function DwBlog() {
@@ -32,7 +33,8 @@ function DwBlog() {
             <div className='ispmainservice'>
                 <Header />
                 <Bannerblog />
-                <DwmainBlogs />
+                {/* <DwmainBlogs /> */}
+                <MainDwBlogs />
                 <Footer />
 
             </div>
