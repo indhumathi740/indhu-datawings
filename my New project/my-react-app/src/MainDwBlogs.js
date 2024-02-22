@@ -78,7 +78,6 @@ function MainDwBlogs() {
                             <img
                             className="dw-blogs1"
                             src={"../uploads/"+ value.img}
-                            // src={"https://www.datawings.co.in/uploads/43b32c0d-0805-42e7-9640-ed3c776a19a0i.webp"}
                             title={value.title}
                             alt={value.title}
                             />
