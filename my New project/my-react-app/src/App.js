@@ -34,6 +34,7 @@ import ScrollToTop from "./common/scrollToTop";
 
 import './css/styles.css'; // Import the CSS file with Google Fonts
 import Four from './404';
+import MainDwBlogs from './MainDwBlogs';
 // import Mainpackages from './MyPackages';
 
 
