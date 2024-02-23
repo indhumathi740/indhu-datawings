@@ -82,7 +82,7 @@ function MainDwBlogs() {
                             alt={value.title}
                             />
                             <div className="dw-blogs2">
-                            <span>INSIGHT</span>
+                            <span>INSIGHT</span> 
                             </div>
                         </a>
                         </div>
