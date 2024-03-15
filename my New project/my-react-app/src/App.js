@@ -58,7 +58,7 @@ function App() {
         <Route path="/SMEinternet" element={<Packagessmes/>} />
         <Route path="/InternetLeasedLine" element={<Packageslles/>} />
         <Route path="/tv" element={<Packagestv/>} />
-        <Route path="/mainblog/:id"  element={<OverBlogs/>} />
+        <Route path="/mainblog/:id/:name"  element={<OverBlogs/>} />
         <Route path="/privs" element={<Footerprivacypage/>} />
         <Route path="/terms" element={<Termspage/>} />
         <Route path="/disclaimer" element={<Dispage/>} />

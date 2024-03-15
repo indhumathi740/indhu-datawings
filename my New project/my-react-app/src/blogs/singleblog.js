@@ -96,7 +96,7 @@ const DwBlogs = () => {
                   13 <br/>
                   May
                 </div> */}
-                      <a className="links" href={"/mainblog/" + value.id}>
+                      <a className="links" href={"/mainblog/" + value.id  + "/" + value.title?.trim().replace("/","-").replace(/\s/g, '-').toLowerCase()}>
                         <img
                           className="dw-blogs1 "
                           src={"../uploads/"+ value.img}
@@ -121,11 +121,10 @@ const DwBlogs = () => {
                       <div className="dwblog-tit">
                         <Link
                           className=" blog-inn-conse"
-                          to={"/mainblog/" + value.id}
+                          to={"/mainblog/" + value.id  + "/" + value.title?.trim().replace("/","-").replace(/\s/g, '-').toLowerCase()}
                         >
                           <span
                             className="blog-main-contentsss"
-                            href={"/mainblog/" + value.id}
                           >
                             {value.title}
                           </span>
@@ -135,7 +134,7 @@ const DwBlogs = () => {
                       <div className="btn-blogs">
                         <a
                           className="btns-greens-third"
-                          href={"/mainblog/" + value.id}
+                          href={"/mainblog/" + value.id + "/" + value.title?.trim().replace("/","-").replace(/\s/g, '-').toLowerCase()}
                         >
                           READ MORE
                         </a>
