@@ -88,8 +88,8 @@ function Forms() {
                         <div className=' container col-lg-6 rightsidecontents' data-aos="fade-left" >
                             <div className='row overall-con'>
                                 <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>get in touch</button></div>
-                                <p className='ban-two-bel'>Let's start talking with us</p>
-                                <p className='text-muted'>Feel free to reach out to us with any questions or concerns. For inquiries and contact, connect with our support team at anytime.</p>
+                                <p className='ban-two-bel'>Let's start talking with Internet Service Provider</p>
+                                <p className='text-muted'>Feel free to reach out to us with any questions or concerns regarding our <b>internet service</b>. For inquiries and assistance, connect with our support team at any time.</p>
                                 <div className='rigonebox' >
                                     <div className='col-md-2 icon-isp-about' >
 

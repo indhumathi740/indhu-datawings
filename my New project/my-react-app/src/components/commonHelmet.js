@@ -21,12 +21,12 @@ const CommonHelmet = ({ pageTitle = "Default Page Title", pageDescription = "Def
       "@type": "ListItem",
       "position": 3,
       "name": "Packages",
-      "item": "https://www.datawings.co.in/packages"
+      "item": "https://www.datawings.co.in/Broadband-Internet-service"
     }, {
       "@type": "ListItem",
       "position": 4,
       "name": "Contact Us",
-      "item": "https://www.datawings.co.in/contact"
+      "item": "https://www.datawings.co.in/Internet-service-Provider"
     }, {
       "@type": "ListItem",
       "position": 5,
@@ -36,7 +36,7 @@ const CommonHelmet = ({ pageTitle = "Default Page Title", pageDescription = "Def
       "@type": "ListItem",
       "position": 6,
       "name": "Contact",
-      "item": "https://www.datawings.co.in/contact"
+      "item": "https://www.datawings.co.in/Internet-service-Provider"
     }]
   };
 

@@ -43,7 +43,7 @@ function header() {
           <div className="row">
             <div className="d-none d-md-block col-md-6 col-lg-3">
               <p>
-                <a className="head-link" href="/contact">
+                <a className="head-link" href="/Internet-service-Provider">
                   <FaLocationDot />
                   &nbsp;&nbsp;&nbsp;&nbsp; Coimbatore, Tamil Nadu 641035
                 </a>{" "}
@@ -115,8 +115,8 @@ function header() {
                 className="datawings-logo"
 
                 src="/images/icons/datawings-logo.webp"
-                alt="datawings logo"
-                title="Datawings logo"
+                alt="Internet Service Provider"
+                title="Internet Service Provider"
 
                
               ></img>
@@ -133,7 +133,7 @@ function header() {
                 </Link>
               </li>
               <li>
-                <Link className="mlink" to="/packages">
+                <Link className="mlink" to="/Broadband-Internet-service">
                   Package
                 </Link>
               </li>
@@ -144,7 +144,7 @@ function header() {
                 </Link>
               </li>
               <li>
-                <Link className="mlink" to="/contact">
+                <Link className="mlink" to="/Internet-service-Provider">
                   Contact
                 </Link>
               </li>
@@ -195,7 +195,7 @@ function header() {
           </Link>
         </li>
         <li className="sub">
-                <Link className="mlink " to="/packages" onClick={DropdownMenuSub}>
+                <Link className="mlink " to="/Broadband-Internet-service" onClick={DropdownMenuSub}>
            Packages         {/* <IoMdArrowDropdown/> */}
                 </Link>
                
@@ -206,7 +206,7 @@ function header() {
           </Link>
         </li>
         <li>
-          <Link className="mlink" to="/contact">
+          <Link className="mlink" to="/Internet-service-Provider">
             Contact
           </Link>
         </li>

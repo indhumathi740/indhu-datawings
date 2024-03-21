@@ -23,7 +23,7 @@ function Smallbox() {
         </div>
         <div className='col-lg-3 commonbac'>
             <div className='btncolor'>
-                <Link to="/contact"><button className='btns-green getanobtn'>get started</button></Link>
+                <Link to="/Internet-service-Provider"><button className='btns-green getanobtn'>get started</button></Link>
             </div>
             <div className='row'>
 

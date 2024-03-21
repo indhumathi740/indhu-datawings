@@ -26,7 +26,7 @@ function Fixedline() {
 
                      <Link to="/Bookservicepage" target='_blank'><LocalActivityIcon data-tooltip-id="my-tooltip-2" className='valuekiller' /></Link>
                  
-                   <Link to="/Contact" target='_blank'><ContactSupportOutlinedIcon data-tooltip-id="my-tooltip-3" className='valuekiller'/></Link>
+                   <Link to="/Internet-service-Provider" target='_blank'><ContactSupportOutlinedIcon data-tooltip-id="my-tooltip-3" className='valuekiller'/></Link>
                 
                  </div>
                  <ReactTooltip

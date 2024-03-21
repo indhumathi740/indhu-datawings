@@ -62,7 +62,7 @@ function Services() {
               <p className="text-muted box-conin">
                 Explore our comprehensive range of Broadband, IPTV, and Voice services, designed to elevate your digital experience to new heights.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><Link to='/packages'>
+              <div className='buttons'><Link to='/Broadband-Internet-service'>
           <button className='btns-greenbox'>View Details</button>
         </Link></div>
 

@@ -15,10 +15,10 @@ function Banner() {
                         <div className='row'>
                             <div className='col-md-7' data-aos="fade-up" data-aos-duration="1000">
                                 <div className=' contentsection'>
-                                    <p className="maintitle" >Your World, Our Network.</p>
+                                    <h1 className="maintitle" >Your World, Our Internet</h1>
                                     <div className='smalline'></div>
                                     <p className='bannercontent' data-aos="fade-up" data-aos-duration="2000">
-                                    Elevate your digital experience with Datawings – the undisputed "best internet service provider (ISP)." Enjoy blazing-fast Internet and immersive IPTV. Uncover unbeatable connectivity and competitive pricing today.
+                                    Elevate your digital experience with Datawings, the undisputed <a href='/Internet-service-Provider'>best internet service provider (ISP)</a>. Enjoy blazing-fast Internet and immersive IPTV. Uncover unbeatable connectivity and competitive pricing today.
 
 
 
@@ -34,7 +34,7 @@ function Banner() {
                                     </ul>
                                 </div>
                                 <div className='button' data-aos="fade-up" data-aos-duration="1000">
-                                    <Link to="/packages">
+                                    <Link to="/Broadband-Internet-service">
                                         <button className='btns-green'>see plan & deals</button>
                                     </Link>
                                 </div>                            </div>

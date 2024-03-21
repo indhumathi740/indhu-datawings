@@ -15,7 +15,7 @@ function Thirdbanner() {
                             <div className='col-md-6 banner-thi-con' data-aos="fade-up" data-aos-duration="2000">
                                 <div className=' contentsection'>
                                     <div className='button'><button className='btns-greens-third'>choose your package</button></div>
-                                    <p className="maintitlethi">Unlock the Biggest Savings Ever on Home Satellite Internet!</p>
+                                    <h2 className="maintitlethi">Unlock the Biggest Savings Ever on Home Satellite Internet!</h2>
                                     <p className='bannercontent'>Experience unmatched savings on home satellite internet. Get connected with lightning speed, all made possible by your trusted Internet Service Provider.</p>
 
 
@@ -56,7 +56,7 @@ function Thirdbanner() {
                                         <p className='pac-amount'> Rs 1500/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mslink" to="/contact">
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mslink" to="/Internet-service-Provider">
                                             subscribe now                </Link>
                                         </button></div>
 
@@ -91,7 +91,7 @@ function Thirdbanner() {
                                         <p className='pac-amount'> Rs 2500/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mslink" to="/contact">
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mslink" to="/Internet-service-Provider">
                                             subscribe now                </Link>
                                         </button></div>
 
@@ -126,7 +126,7 @@ function Thirdbanner() {
 
                                         <div className='buttons'><button className='btns-greenbox'>
 
-                                            <Link className="mslink" to="/contact">
+                                            <Link className="mslink" to="/Internet-service-Provider">
                                                 subscribe now
                                             </Link>
                                         </button></div>
