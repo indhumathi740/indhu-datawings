@@ -49,9 +49,9 @@ function App() {
 
         <Route path="/" element={<Ispservice />} />
     
-        <Route path="/packages" element={<Packages/>} />
+        <Route path="/Broadband-Internet-service" element={<Packages/>} />
         <Route path="/Aboutus" element={<Aboutus/>} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/Internet-service-Provider" element={<Contact/>} />
         <Route path="/service" element={<Serviceispse/>} />
         <Route path="/blog" element={<DwBlog/>} />
         <Route path="/Businessbroadband" element={<Packagesbroad/>} />

@@ -8,7 +8,7 @@ const pages = [
   '/aboutus',
   '/packages',
   '/blog',
-  '/contact',
+  '/Internet-service-Provider',
   '/InternetLeasedLine',
   '/SMEinternet',
   '/Businessbroadband',

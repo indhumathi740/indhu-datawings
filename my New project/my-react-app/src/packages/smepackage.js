@@ -39,7 +39,7 @@ function SMEpackage() {
                                         <p className='pac-amount'> Rs 3500/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/Internet-service-Provider">
                                             subscribe now                </Link>
                                         </button></div>
 
@@ -69,7 +69,7 @@ function SMEpackage() {
                                         <p className='pac-amount'> Rs 9500/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/Internet-service-Provider">
                                             subscribe now                </Link>
                                         </button></div>
 
@@ -99,7 +99,7 @@ function SMEpackage() {
 
                                         <div className='buttons'><button className='btns-greenbox'>
 
-                                            <Link className="mlink" to="/contact">
+                                            <Link className="mlink" to="/Internet-service-Provider">
                                                 subscribe now
                                             </Link>
                                         </button></div>

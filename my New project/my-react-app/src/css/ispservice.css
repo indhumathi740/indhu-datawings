@@ -966,3 +966,11 @@ padding-top: 30px;
 .logo-box img{
     scale: 0.5;
 }
+.btns-green a{
+    text-decoration: none;
+    color: white;
+}
+.bannercontent a{
+    text-decoration: none;
+    color: white;
+}

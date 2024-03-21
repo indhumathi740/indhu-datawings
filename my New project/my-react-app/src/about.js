@@ -16,8 +16,8 @@ function Aboutus() {
     return (
         <>
           <CommonHelmet 
-                pageTitle="Best Network  service provider in Coimbatore"
-                pageDescription="Experience best network provider in Coimbatore with high-speed internet, 
+                pageTitle="Internet Service Provider|Best Network  service provider"
+                pageDescription="Experience best network provider with high-speed internet service, 
                 Network security solution, best internet speed, Reliable internet services ."
                 pageKeywords=" network support, high speed internet, Network security solution, Reliable internet 
                 services"

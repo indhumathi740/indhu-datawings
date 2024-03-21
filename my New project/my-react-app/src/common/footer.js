@@ -15,42 +15,42 @@ const linkStyle = {
   color: 'rgba(255, 254, 254, 0.733) ', // Set the color to white
 };
 const sentencesWithLinks = [
-  { sentence: 'best internet service provider in coimbatore', link: '/packages' },
-  { sentence: 'best internet connection and Internet provider in Coimbatore', link: '/packages' },
-  { sentence: 'best Wi-Fi service provider in Coimbatore', link: '/packages' },
+  { sentence: 'best internet service provider in coimbatore', link: '/Broadband-Internet-service' },
+  { sentence: 'best internet connection and Internet provider in Coimbatore', link: '/Broadband-Internet-service' },
+  { sentence: 'best Wi-Fi service provider in Coimbatore', link: '/Broadband-Internet-service' },
   { sentence: 'best Network service provider in Coimbatore', link: '/aboutus' },
   { sentence: 'best high speed internet provider in Coimbatore', link: 'https://www.datawings.co.in/' },
   { sentence: 'best broadband service provider in Coimbatore ', link: '/Businessbroadband' },
   { sentence: 'best internet Leased Line service provider in Coimbatore', link: '/InternetLeasedLine' },
   { sentence: 'best network security solution provider in Coimbatore', link: '/aboutus' },
-  { sentence: 'best high speed Wi-Fi service provider in Coimbatore', link: '/packages' },
+  { sentence: 'best high speed Wi-Fi service provider in Coimbatore', link: '/Broadband-Internet-service' },
   { sentence: 'wifi connection service provider in Coimbatore', link: '/aboutus' },
-  { sentence: 'internet solutions in Coimbatore', link: '/packages' },
-  { sentence: 'internet service in Coimbatore', link: '/packages' },
-  { sentence: 'top broadband service', link: '/packages' },
-  { sentence: 'Top Internet Service Provider', link: '/packages' },
-  { sentence: 'Best Broadband Plans', link: '/packages' },
-  { sentence: 'best wifi internet plans', link: '/packages' },
-  { sentence: 'best internet broadband plans', link: '/packages' },
-  { sentence: 'Top broadband providers', link: '/packages' },
-  { sentence: 'home Wi-Fi solutions in Coimbatore', link: '/packages' },
-  { sentence: 'internet plans in coimbatore', link: '/packages' },
-  { sentence: 'Fiber-optic internet', link: '/packages' },
-  { sentence: 'best internet service provider in karur', link: '/packages' },
-  { sentence: 'best internet connection and Internet provider in karur', link: '/packages' },
-  { sentence: 'best Wi-Fi service provider in karur', link: '/packages' },
+  { sentence: 'internet solutions in Coimbatore', link: '/Broadband-Internet-service' },
+  { sentence: 'internet service in Coimbatore', link: 'Broadband-Internet-service' },
+  { sentence: 'top broadband service', link: '/Broadband-Internet-service' },
+  { sentence: 'Top Internet Service Provider', link: '/Broadband-Internet-service' },
+  { sentence: 'Best Broadband Plans', link: '/Broadband-Internet-service' },
+  { sentence: 'best wifi internet plans', link: '/Broadband-Internet-service' },
+  { sentence: 'best internet broadband plans', link: '/Broadband-Internet-service' },
+  { sentence: 'Top broadband providers', link: '/Broadband-Internet-service' },
+  { sentence: 'home Wi-Fi solutions in Coimbatore', link: '/Broadband-Internet-service' },
+  { sentence: 'internet plans in coimbatore', link: '/Broadband-Internet-service' },
+  { sentence: 'Fiber-optic internet', link: '/Broadband-Internet-service' },
+  { sentence: 'best internet service provider in karur', link: '/Broadband-Internet-service' },
+  { sentence: 'best internet connection and Internet provider in karur', link: '/Broadband-Internet-service' },
+  { sentence: 'best Wi-Fi service provider in karur', link: '/Broadband-Internet-service' },
   { sentence: 'best Network service provider in karur', link: '/aboutus' },
   { sentence: 'best high speed internet provider in karur', link: 'https://www.datawings.co.in/' },
   { sentence: 'best broadband service provider in karur ', link: '/Businessbroadband' },
   { sentence: 'best internet Leased Line service provider in karur', link: '/InternetLeasedLine' },
   { sentence: 'best network security solution provider in karur', link: '/aboutus' },
-  { sentence: 'best high speed Wi-Fi service provider in karur', link: '/packages' },
+  { sentence: 'best high speed Wi-Fi service provider in karur', link: '/Broadband-Internet-service' },
   { sentence: 'internet solutions in karur', link: '/aboutus' },
   { sentence: 'home Wi-Fi solutions in karur', link: '/aboutus' },
-  { sentence: 'internet plans in karur', link: '/packages' },
-  { sentence: 'Fiber-optic internet', link: '/packages' },
-  { sentence: 'Broadband Internet Service Providers in Coimbatore', link: '/packages' },
-  { sentence: 'Internet solutions Providers in Coimbatore', link: '/packages' },
+  { sentence: 'internet plans in karur', link: '/Broadband-Internet-service' },
+  { sentence: 'Fiber-optic internet', link: '/Broadband-Internet-service' },
+  { sentence: 'Broadband Internet Service Providers in Coimbatore', link: '/Broadband-Internet-service' },
+  { sentence: 'Internet solutions Providers in Coimbatore', link: '/Broadband-Internet-service' },
 
   // ... add more sentences and links as needed
 ];
@@ -175,7 +175,7 @@ function Footer() {
                   </li>
                   <li>
                     {" "}
-                    <Link to="/contact" className="link-without-underline">Contact Us</Link>
+                    <Link to="/Internet-service-Provider" className="link-without-underline">Contact Us</Link>
                   </li>
                   <li>
                     {" "}
@@ -195,7 +195,7 @@ function Footer() {
                   <li className="quicklinks " ><Link to="/privs">Privacy Policy</Link></li>
                   <li className="quicklinks"><Link to="/terms">Terms and Conditions</Link></li>
                   <li className="quicklinks"><Link to="/disclaimer">Disclaimer</Link></li>
-                  <li className="quicklinks"><Link to="/contact">Support</Link></li>
+                  <li className="quicklinks"><Link to="/Internet-service-Provider">Support</Link></li>
                   <li className="quicklinks"><Link to="/support">Cancellation & Refund</Link></li>
                 </ul>
               </div>

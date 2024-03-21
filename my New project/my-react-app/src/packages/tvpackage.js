@@ -42,7 +42,7 @@ function Tvpackage() {
                                         <p className='pac-amount'> Rs 499-<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/Internet-service-Provider">
                                             subscribe now                </Link>
                                         </button></div>
 
@@ -74,7 +74,7 @@ function Tvpackage() {
                                         <p className='pac-amount'> Rs 699/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/Internet-service-Provider">
                                             subscribe now                </Link>
                                         </button></div>
 
@@ -105,7 +105,7 @@ function Tvpackage() {
 
                                         <div className='buttons'><button className='btns-greenbox'>
 
-                                            <Link className="mlink" to="/contact">
+                                            <Link className="mlink" to="/Internet-service-Provider">
                                                 subscribe now
                                             </Link>
                                         </button></div>

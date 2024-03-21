@@ -466,7 +466,7 @@ function MyPackages() {
                 <p className='pac-amount'> Rs {pkg.price}/<br /><p className='par-package'>Monthly</p></p>
                 <div className='buttons'>
                   <button className='btns-greenbox'>
-                    <Link className="mlink" to="/contact">
+                    <Link className="mlink" to="/Internet-service-Provider">
                       subscribe now
                     </Link>
                   </button>

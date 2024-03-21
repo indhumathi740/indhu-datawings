@@ -13,7 +13,7 @@ function SMElles() {
     <>
 
 <div className='container'>
-<p className='data-pack-main'>Our Internet Leased Line service provides high-speed, dedicated Internet connectivity to ensure your business stays connected 24/7</p>
+<h2 className='data-pack-main mb-4'>Our <b>Internet Leased Line service</b> provides high-speed, dedicated Internet connectivity to ensure your business stays connected 24/7</h2>
 <li className='data-pack-main-con'>Throughput Commitment:-1:1 symetric Bandwidth</li>
 <li className='data-pack-main-con'>IPV6 Ready</li>
 <li className='data-pack-main-con'>POP Level Dual Upstream Parenting</li>

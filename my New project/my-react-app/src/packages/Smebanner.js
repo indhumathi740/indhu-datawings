@@ -7,8 +7,8 @@ function Bannerspacsme() {
     return (
         <>
 <div className='head-isp-serviceban '>
-    <p className='head-isp-about'>SME Internet</p>
-    <p className='head-isp-para'>3 Static Public IP</p>
+    <h1 className='head-isp-about'>SME Internet</h1>
+    <h2 className='head-isp-para'>3 Static Public IP</h2>
     {/* <p className='head-isp-para'>Throughput Commitment:- 85% Of Subscribed Bandwidth</p> */}
     <p className='head-isp-para'>IPV6 Ready</p>
     {/* <p className='head-isp-para'>POP Level Dual Upstream Parenting</p> */}

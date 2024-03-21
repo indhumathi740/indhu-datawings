@@ -7,7 +7,7 @@ function Bannerspackmain() {
     return (
         <>
 <div className='head-isp-serviceban '>
-    <p className='head-isp-about'>Business Broadband</p>
+    <h1 className='head-isp-about'>Business Broadband</h1>
     <p className='head-isp-para'>1 Public IP</p>
     {/* <p className='head-isp-para'>Throughput Commitment:- 85% Of Subscribed Bandwidth</p> */}
     <p className='head-isp-para'>IPV6 Ready</p>

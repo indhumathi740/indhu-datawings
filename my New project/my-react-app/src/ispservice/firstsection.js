@@ -11,11 +11,11 @@ function Firstsection() {
                 <div className='row fir-con-box'>
                     <div className='col-lg-4 cen-con-imgbefore' data-aos="fade-right" data-aos-duration="2000">
                         <div className='leftsidecontent'>
-                            <div className='securebutton'><button className='btns-green another'>secure connection</button><br></br></div>
+                            <div className='securebutton'><button className='btns-green another'><a href='/Internet-service-Provider'>secure Internet</a></button><br></br></div>
                             <h1 className='content'>10x faster than the current standard of WiFi.</h1>
-                            <p className='text-muted parafirsec'>Experience the future of connectivity with our WiFi service, 10x faster than the current standard. Enhance your digital experience today with Datawings Teleinfra, providing the best internet solutions.
+                            <p className='text-muted parafirsec'>Experience the future of connectivity with our WiFi service, 10x faster than the current standard. Enhance your digital experience today with Datawings Teleinfra, providing the <b>best internet services</b>.
                             </p>
-                            <div className='getbutton'><Link to="/packages"><button className='btns-green '>get started</button></Link></div>
+                            <div className='getbutton'><Link to="/Broadband-Internet-service"><button className='btns-green '>get started</button></Link></div>
                         </div>
                     </div>
                     <div className='col-lg-3 center-img'>
