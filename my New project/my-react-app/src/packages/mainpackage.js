@@ -19,7 +19,7 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group-1.webp"alt='BASIC PACKAGE'title='BASIC PACKAGE'>
+                                            src="../images/banner/group-1.webp"alt='BASIC PACKAGE'title='BASIC PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -48,7 +48,7 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group-2.webp"alt='PREMIUM PACKAGE'title='PREMIUM PACKAGE'>
+                                            src="../images/banner/group-2.webp"alt='PREMIUM PACKAGE'title='PREMIUM PACKAGE'>
                                         </img></div>
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
@@ -77,7 +77,7 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group-3.webp"alt='HYPE PACKAGE'title='HYPE PACKAGE'>
+                                            src="../images/banner/group-3.webp"alt='HYPE PACKAGE'title='HYPE PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>
                                         <p className="midess-title">
