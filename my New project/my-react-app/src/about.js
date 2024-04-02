@@ -16,8 +16,8 @@ function Aboutus() {
     return (
         <>
           <CommonHelmet 
-                pageTitle="Internet Service Provider|Best Network  service provider"
-                pageDescription="Experience best network provider with high-speed internet service, 
+                pageTitle="Wi-Fi Service in Karur|WiFi service provider in karur"
+                pageDescription="Wi-Fi Service provider with high-speed internet service, 
                 Network security solution, best internet speed, Reliable internet services ."
                 pageKeywords=" network support, high speed internet, Network security solution, Reliable internet 
                 services"

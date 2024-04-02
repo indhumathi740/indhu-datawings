@@ -23,9 +23,9 @@ function Packages() {
   return (
     <>
      <CommonHelmet
-     pageTitle="best Wi-Fi service provider in Coimbatore"
-     pageDescription="Experience best Wi-Fi solutions in Coimbatore with ISP services. Enjoy 
-     wireless internet for home, best high-speed Wi-Fi, both wired and wireless
+     pageTitle="Broadband Internet Service in Karur|Broadband Internet Service."
+     pageDescription="Broadband Internet Service in Karur,Coimbatore with ISP services. Enjoy 
+     wireless internet for home, best high-speed Wi-Fi and Broadband Internet Service.
      "
      pageKeywords=" wireless internet for home, best Wi-Fi provider,ISP services, WIFI plans, high speed 
      Wi-Fi"

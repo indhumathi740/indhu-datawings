@@ -36,8 +36,8 @@ function Ispservice() {
       {/* <Header/> */}
       <div className='ispmainservice'>
       <CommonHelmet
-     pageTitle="Internet service provider in karur|Broadband Internet Service"
-     pageDescription="Experience fast internet service in karur,Tamilnadu with the best ISP. Offering high-speed internet, Wi-Fi, fiber network, and overall internet service provider ."
+     pageTitle="Best Internet service provider in karur,Coimbatore"
+     pageDescription="Datawings is a Internet Service Provider in Karur that Provides high-speed internet, Wi-Fi, fiber network, and overall internet service provider ."
      pageKeywords="high speed internet, best ISP, network marketing, best internet service, best fiber network"
      />
         <Header />

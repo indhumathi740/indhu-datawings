@@ -6,6 +6,7 @@ import axios from "axios";
 import Header from './common/header';
 import Footer from './common/footer';
 import { useNavigate, useParams } from "react-router-dom";
+import CommonHelmet from './components/commonHelmet';
 
 // ss
 function OverBlogs() {
@@ -51,6 +52,11 @@ function OverBlogs() {
           console.log(blogs.content)
     return (
         <>
+           <CommonHelmet 
+                pageTitle={blogs.title}
+                pageDescription={blogs.metades}
+                pageKeywords={blogs.metakey}
+                />
         <Header />
         <Bannerblog />
         <div className=' container'>
@@ -58,7 +64,7 @@ function OverBlogs() {
             <div className='overallpique'>
                 <div className='innerpiques'>
                     <img
-                     src={"../uploads/"+ blogs.img}  
+                     src={"/uploads/"+ blogs.img}  
                      className='image-fluid dataimg'alt='blogs'title='blogs' />
                     <div className='valuamount'>
                     <p className='blog-inn-cons'>{blogDate}</p>

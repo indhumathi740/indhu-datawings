@@ -11,8 +11,8 @@ function Packagequestions() {
                 <div className='row form-scrolls'>
                     <div className='col-md-4'>
                     <div className='button'><button className='btns-greens-thirds'>FAQ</button></div>
-                        <p className=' bannercontentone'>Frequently Ask Questions.</p>
-                        <p className=' text-muted ques-head '>An ISP, or Internet Service Provider, connects you to the internet, offering various connection types like broadband, DSL, and fiber optics.</p>
+                        <h2 className=' bannercontentone'>Frequently Ask Questions.</h2>
+                        <p className=' text-muted ques-head '><b>Broadband Internet Service Provider</b>, connects you to the internet, offering various connection types like broadband, DSL, and fiber optics.</p>
                         
                         </div>
                     <div className='col-md-8'>

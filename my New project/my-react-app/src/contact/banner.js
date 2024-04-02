@@ -7,7 +7,7 @@ function Bannerscontact() {
     return (
         <>
 <div className='head-isp-contact '>
-    <h1 className='head-isp-about'>Internet Service Provider</h1>
+    <h1 className='head-isp-about'>Internet Service Provider in Karur</h1>
     <h2 className='head-isp-para'>Access fast and reliable <a href='/' className='internet-banner-highlight'>internet service </a> anywhere you go.</h2>
 </div>
             

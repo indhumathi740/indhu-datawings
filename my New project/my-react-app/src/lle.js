@@ -24,8 +24,8 @@ function Packageslles() {
       {/* <Header/> */}
       <div className='ispmainservice'>
         <CommonHelmet 
-         pageTitle="Broadband Internet service provider in coimbatore,karur."
-         pageDescription="- Discover advanced network provider with best network
+         pageTitle="Internet Leasedline Service Provider in Karur."
+         pageDescription="Internet Leased Line Service Provider - Discover advanced network provider with best network
          coverage,wireless wi-fi router solutions"
          pageKeywords="best network coverage, wireless wifi router, wifi
          access point"

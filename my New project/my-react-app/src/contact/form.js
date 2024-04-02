@@ -88,8 +88,8 @@ function Forms() {
                         <div className=' container col-lg-6 rightsidecontents' data-aos="fade-left" >
                             <div className='row overall-con'>
                                 <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-greens'>get in touch</button></div>
-                                <p className='ban-two-bel'>Let's start talking with Internet Service Provider</p>
-                                <p className='text-muted'>Feel free to reach out to us with any questions or concerns regarding our <b>internet service</b>. For inquiries and assistance, connect with our support team at any time.</p>
+                                <h2 className='ban-two-bel'> <a href='/'>Internet Service Provider</a> - Let's start talk to us</h2>
+                                <p className='text-muted con-text-color'>Feel free to reach out to us with any questions or concerns regarding our <a href='/'>internet service</a>. For inquiries and assistance, connect with our support team at any time.</p>
                                 <div className='rigonebox' >
                                     <div className='col-md-2 icon-isp-about' >
 
@@ -98,7 +98,7 @@ function Forms() {
                                        
                                     <div className='col-md-10 icon-isp-about-con'>
 
-                                        <p className='rigtitle'><b>Head office</b></p>
+                                        <h2 className='rigtitle'><b>Internet Service - Head office</b></h2>
                                         <p className='text-muted rigpara'>3/115, NARYIAMPALLIPUDUR
                                             KARUVALUR ANNUR<br></br> COIMBATORE
                                             TAMILNADU-641653 INDIA </p>

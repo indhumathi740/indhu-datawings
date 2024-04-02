@@ -7,7 +7,7 @@ function Bannerlle() {
     return (
         <>
 <div className='head-isp-serviceban '>
-    <h1 className='head-isp-about'>Internet Leased Line</h1>
+    <h1 className='head-isp-about'>Internet Leased Line Service</h1>
     
 
 

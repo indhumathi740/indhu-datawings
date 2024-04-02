@@ -22,7 +22,7 @@ function DwBlog() {
     return (
         <>
          <CommonHelmet 
-                pageTitle="network provider in Coimbatore"
+                pageTitle="network Service provider in Coimbatore|Network Service"
                 pageDescription="Explore best fiber connectivity provider in Coimbatore Experience 
                 high-speed internet, best fiber connections, and cutting-edge 4G and 5G technology 
                 "

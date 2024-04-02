@@ -423,7 +423,7 @@ function MyPackages() {
       <div className=' head-pac-h'>
         <div className=' gre-box'>
           <h2 className='las-blo-titlessisp'>Choose your location</h2>
-          <p className='text-muted locationcontent'> we provide high-speed internet solutions to keep you connected in today's digital world. Whether you're a casual user, a gamer, a business owner, or a streaming enthusiast, we have the perfect internet package to meet your specific needs.</p>
+          <p className='text-muted locationcontent'> <b>Broadband Internet Service</b> that provides high-speed internet solutions to keep you connected in today's digital world. Whether you're a casual user, a gamer, a business owner, or a streaming enthusiast, we have the perfect internet package to meet your specific needs.</p>
 
           <div className='allloca'>
           <select value={selectedLocation} onChange={handleLocationChange} className="select-dropdown ">
@@ -450,9 +450,9 @@ function MyPackages() {
                 <div className='des'>
                   <img className="img-fluid" src={pkg.imageUrl} alt={pkg.name} title={pkg.name}/>
                 </div>
-                <p className="midss-title">{pkg.name}</p>
+                <h2 className="midss-title">{pkg.name}</h2>
 
-                <p className="midess-title">{pkg.speed}</p>
+                <h2 className="midess-title">{pkg.speed}</h2>
 
                 <p className="midesss-title">{pkg.con1}</p>  <hr className='text-muted'></hr>
                 <p className="midesss-title">{pkg.con2}</p>  <hr className='text-muted'></hr>
@@ -463,7 +463,7 @@ function MyPackages() {
 
 
                 {/* Add other package details here */}
-                <p className='pac-amount'> Rs {pkg.price}/<br /><p className='par-package'>Monthly</p></p>
+                <h2 className='pac-amount'> Rs {pkg.price}/<br /><p className='par-package'>Monthly</p></h2>
                 <div className='buttons'>
                   <button className='btns-greenbox'>
                     <Link className="mlink" to="/Internet-service-Provider">

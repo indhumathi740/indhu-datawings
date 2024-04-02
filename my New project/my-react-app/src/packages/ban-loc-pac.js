@@ -8,8 +8,8 @@ function Bannerpac() {
         <>
 <div className=' head-isp-abou-pacs'>
 
-    <p className='head-isp-about'>Packages</p>
-    <p className='head-isp-para'>Unlock Seamless Internet Speeds for Your Digital Lifestyle.</p>
+    <h1 className='head-isp-about'>Broadband Internet Service</h1>
+    <h2 className='head-isp-para'>Unlock Seamless <a href='/internet-service-provider'>Broadband Internet</a> Speeds for Your Digital Lifestyle.</h2>
 </div>
             
         </>

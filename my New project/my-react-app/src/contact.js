@@ -11,8 +11,8 @@ function Contact() {
     return (
         <>
          <CommonHelmet 
-                pageTitle="best Internet Service provider in karur|Broadband Service"
-                pageDescription="Discover the best Internet Service provider in karur with the top ISP. 
+                pageTitle="Internet Service provider in karur|Internet Service in Karur"
+                pageDescription="Internet Service Provider in karur. 
                 Explore advanced 5G networks, internet speed, overall internet services"
                 pageKeywords="Mobile network services,4G connectivity,5G network, best 5g phones, isp services"
                 />

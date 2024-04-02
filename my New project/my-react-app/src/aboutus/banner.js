@@ -8,7 +8,7 @@ function Bannersabout() {
         <>
 <div className=' head-isp-abou'>
     <p className='head-isp-about'>About us</p>
-    <p className='head-isp-para'>Discover Reliable Internet Everywhere</p>
+    <h1 className='head-isp-para'>Reliable Internet Service</h1>
 </div>
             
         </>

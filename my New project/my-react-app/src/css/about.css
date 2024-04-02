@@ -115,4 +115,7 @@ background-color: rgb(255, 255, 255);
     text-align: center;
     padding-bottom: 20px;
   }
-  
+  .wifi-key-display a{ 
+    text-decoration: none !important;
+    color: black !important;
+}
